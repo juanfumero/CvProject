@@ -1,11 +1,11 @@
 {
-  "name": "CvProjec",
+  "name": "CvProject",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --configuration=production --base-href https://juanfumero.github.io/CvProjec/",
+    "watch": "ng build --configuration=production --base-href https://juanfumero.github.io/CvProject/",
     "test": "ng test"
   },
   "private": true,
