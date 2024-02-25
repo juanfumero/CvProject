@@ -18,12 +18,16 @@
 			Windows: function() {
 			return navigator.userAgent.match(/IEMobile/i);
 		},
+		esDispositivoiOS: function() {
+			return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+		},
 			any: function() {
-			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows() || this.esDispositivoiOS());
 		}
 	};
 
-	
+
+
 	var fullHeight = function() {
 
 		if ( !isMobile.any() ) {
