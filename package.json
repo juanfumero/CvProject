@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --configuration=production --base-href https://juanfumero.github.io/CvProject/",
+    "watch": "ng build --configuration=production --base-href='https://juanfumero.github.io/CvProject/'",
     "test": "ng test"
   },
   "private": true,
