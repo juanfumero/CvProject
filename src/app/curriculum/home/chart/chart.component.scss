@@ -1,0 +1,22 @@
+
+.pie-chart {
+    position: relative;
+  }
+  
+  .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+
+  .contenedor {
+    width: 100%;
+  }
+  
+  .primer-div, .segundo-div {
+    display: block;
+    width: 100%;
+    /* Otros estilos que desees aplicar */
+  }
