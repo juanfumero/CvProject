@@ -11,7 +11,7 @@
             <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
               <div class="profile-thumb" style="background: url(assets/images/jfumero.JPG);"></div>
               <h1><span>Juan Fumero</span></h1>
-              <h3><span>Software Developer | Angular   {{"HOMNE.INFORMATION.INFO" | translate}}</span></h3>
+              <h3><span>{{"HOMNE.INFORMATION.INFO" | translate}} | Angular </span></h3>
               <ul class="fh5co-social-icons move-top">
                 <li><a href="#"><i class="icon-twitter2"></i></a></li>
                 <li><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -22,15 +22,13 @@
                 <li><button class="flat fi fi-es fis fa-4x" (click)="switchLanguage('es')"></button></li>
                 <li><button class="flat fi fi-us fis fa-4x" (click)="switchLanguage('en')"></button></li>
                 <li><button class="flat fi fi-hr fis fa-4x" (click)="switchLanguage('hr')"></button></li>
+                <li>
+                  <button class="img-boton" (click)="switchLanguage('ca')">
+                    <img src="assets/images/cataluna.png" alt="Descripción de la imagen" class="img-size">
+                  </button>
+                </li>
               </ul>
             </div>
-
-            <!-- <div class="content-flat">
-              <div class="flat" style="background-color: blue;"></div>
-              <div class="flat" style="background-color: red;"></div>
-              <div class="flat" style="background-color: green;"></div>
-              <div class="flat" style="background-color: yellow;"></div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -41,29 +39,23 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-          <h2>About Me</h2>
+          <h2>{{"HOMNE.INFORMATION.ABOUT" | translate}}</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
           <ul class="info">
-            <li><span class="first-block">Full Name:</span><span class="second-block">Louie Jie Mahusay</span></li>
-            <li><span class="first-block">Phone:</span><span class="second-block">+ 1235 2355 98</span></li>
-            <li><span class="first-block">Email:</span><span class="second-block">esadasda</span></li>
-            <li><span class="first-block">Website:</span><span class="second-block">www.yoursite.com</span></li>
-            <li><span class="first-block">Address:</span><span class="second-block">198 West 21th Street, Suite 721
-                New York NY 10016</span></li>
+            <li><span class="first-block">{{"HOMNE.INFORMATION.FULL_NAME" | translate}}:</span><span class="second-block">Juan Fumero</span></li>
+            <li><span class="first-block">{{"HOMNE.INFORMATION.PHONE" | translate}}:</span><span class="second-block">+ 1235 2355 98</span></li>
+            <li><span class="first-block">{{"HOMNE.INFORMATION.EMAIL" | translate}}:</span><span class="second-block">ingjef&#64;gmail.com</span></li>
+            <!-- <li><span class="first-block">Website:</span><span class="second-block">https://github.com/juanfumero</span></li> -->
+            <li><span class="first-block">{{"HOMNE.INFORMATION.ADDRESS" | translate}}:</span><span class="second-block">Barcelona, Spain</span></li>
           </ul>
         </div>
         <div class="col-md-8">
-          <h2>Hello There!</h2>
-          <p>There live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts.
-            Separated they live in bookmarksgrove there live the blind texts far from the countries.</p>
-          <p>Far far away, behind the word mountains, Quos quia provident consequuntur culpa facere ratione maxime
-            commodi voluptates id repellat velit eaque aspernatur expedita. Possimus itaque adipisci there live the
-            blind texts from the countries Vokalia and Consonantia, there live the blind texts. Quos quia provident
-            consequuntur culpa facere ratione maxime commodi voluptates id repellat velit eaque aspernatur expedita.
-            Possimus itaque adipisci.</p>
+          <h2>{{"HOMNE.INFORMATION.HELLO" | translate}}</h2>
+          <p>{{"HOMNE.INFORMATION.DESCRIPTION" | translate}}</p>
+          <p></p>
           
           <ul class="fh5co-social-icons">
             <li><a href="#"><i class="icon-twitter2"></i></a></li>
