@@ -1,0 +1,15 @@
+{
+    "HOMNE": {
+      "INFORMATION": {
+        "ABOUT": "Sobre mi",
+        "INFO": "Desarrollador de Software",
+        "DESCRIPTION": "Desarrollo de proyectos con plataformas Android, Blackberry y Web (Angular 15, Vue 3). Aprendizaje rápido. Motivado. Amplio conocimiento en el sector bancario y de seguros.",
+        "FULL_NAME": "Nombre completo",
+        "PHONE": "Teléfono",
+        "EMAIL": "Email",
+        "ADDRESS": "Dirección",
+        "HELLO": "Hola!"
+      }
+  }
+}
+  
