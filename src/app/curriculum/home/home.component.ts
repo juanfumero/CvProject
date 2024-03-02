@@ -9,10 +9,12 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  idiomas: string[] = [];
   constructor(private translate: TranslateService) { }
 
   ngOnInit() {
+    this.idiomas = ['es', 'en','ca', 'hr'];
+    this.translate.addLangs(this.idiomas);
     // Establecer idioma por defecto
     this.translate.setDefaultLang('en');
     // Cargar idioma actual
