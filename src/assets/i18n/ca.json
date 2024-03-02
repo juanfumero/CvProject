@@ -1,14 +1,26 @@
 {
     "HOMNE": {
       "INFORMATION": {
-        "ABOUT": "About Me",
+        "ABOUT": "Sobre mi",
         "INFO": "Desenvolupador de programari",
         "DESCRIPTION": "Desenvolupament de projectes amb les plataformes Android, Blackberry i Web (Angular 15, Vue 3). Aprenentatge ràpid. Motivat. Ampli coneixement en el sector bancari i d'assegurances.",
         "FULL_NAME": "Nom complet",
         "PHONE": "Telèfon",
         "EMAIL": "Correu electrònic",
         "ADDRESS": "Adreça",
-        "HELLO": "Hola!"
+        "HELLO": "Hola!",
+        "RESUME": "El meu currículum",
+        "WORK": "Experiència laboral",
+        "SENIOR": "Desenvolupador Sènior",
+        "JUNIOR": "Desenvolupador Junior",
+        "EDUCATION": "Education",  
+        "BABEL": "Desenvolupador Front-end en aplicacions d'assegurances amb Angular 15",
+        "ALTEN": "Desenvolupament d'aplicacions web en l'API de Vue 3. Desenvolupador d'aplicacions mòbils i web per a l'empresa Alten utilitzant el framework Angular 12, TypeScript. Desenvolupament d'aplicacions mòbils en IONIC 5 i Angular 10 per al port de Barcelona. Desenvolupament en Angular 2/4/5/6 amb creació de components. Ús de tuberies, creació i ús de serveis. Accés a dades a través d'HTTP, ús d'observables, enviament de sol·licituds HTTP, subscripcions a col·leccions observables. Rutes i navegació. Ús de les biblioteques de components ngx-bootstrap i ng-bootstrap, així com de la biblioteca NgRx i RxJs.",
+        "WIKOT": "Desenvolupament i adaptació de llocs web utilitzant llenguatges de programació com PHP, HTML, jQuery, JavaScript. Ús del framework yii2 i angular.js, així com l'ús de gestors de contingut com Wordpress i Prestashop.",
+        "AVANADE": "Desenvolupament en les estadístiques de seguiment de la pàgina web de receptes electròniques integrals (SIRE), en llenguatge C#, asp.net, base de dades SqlServer.",
+        "SYNERGY": "Desenvolupament d'aplicacions mòbils per a dispositius Android i Blackberry dirigides a la indústria bancària i d'assegurances. Anàlisi de requisits en l'àrea de mobilitat i preparació d'estimacions de temps. Responsable de proporcionar formació per a l'ús de les eines git i gitflow en els projectes de l'empresa. Treball amb clients principalment a Veneçuela i Panamà. Ús de la metodologia SCRUM.",
+        "OUTSOURCE": "Desenvolupament del Sistema de Gestió de Recursos Humans, desenvolupament del mòdul de selecció i reclutament de personal, automatització de les proves d'ortografia, color i reven, i desenvolupament dels mòduls de contracte, vacances, aplicació de Prova de Treball, Anticipo de Beneficis, balanços de beneficis socials i avaluació de rendiment, programat en llenguatge C#, asp.net.",
+        "MICORP": "Migració de la base de dades Oracle a Postgres del sistema de màrqueting de hidrocarburs (SCH). Desenvolupament del mòdul d'ETL i validació de les dades migrades en llenguatge PHP."
       }
   }
 }

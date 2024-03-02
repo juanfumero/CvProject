@@ -8,7 +8,19 @@
         "PHONE": "Telefon",
         "EMAIL": "Email",
         "ADDRESS": "Adresa",
-        "HELLO": "Pozdrav!"
+        "HELLO": "Pozdrav!",
+        "RESUME": "Moj životopis",
+        "WORK": "Radno iskustvo",
+        "SENIOR": "Stariji programer",
+        "JUNIOR": "Mlađi programer",
+        "EDUCATION": "Education",
+        "BABEL": "Front-end developer u aplikacijama za osiguranje s Angularom 15",
+        "ALTEN": "Razvoj web aplikacija u Vue 3 aplikacijskom API-ju. Razvoj mobilnih i web aplikacija za tvrtku Alten koristeći Angular 12 okvir, TypeScript. Razvoj mobilnih aplikacija u IONIC-u 5 i Angularu 10 za luku Barcelone. Razvoj u Angularu 2/4/5/6 s radom na stvaranju komponenti. Upotreba cijevi, stvaranje i korištenje usluga. Pristup podacima putem HTTP-a, upotreba observabla, slanje HTTP zahtjeva, pretplate na opservabilne kolekcije. Rute i navigacija. Upotreba ngx-boostrap i ng-bostrap komponentnih knjižnica kao i knjižnice NgRx i RxJs.",
+        "WIKOT": "Razvoj i prilagodba web stranica koristeći programske jezike poput php-a, html-a, jquery-a, javascript-a. Upotreba okvira yii2 i angular.js, kao i korištenje upravitelja sadržajem poput Wordpressa i Prestashopa.",
+        "AVANADE": "Razvoj u statistici praćenja integralnih elektronskih recepata web stranice (SIRE), u C# jeziku, asp.net, SqlServer bazi podataka.",
+        "SYNERGY": "Razvoj mobilnih aplikacija za Android i Blackberry uređaje usmjerene na bankarsku i osiguravateljsku industriju. Istraživanje zahtjeva u području mobilnosti i priprema procjena vremena. Odgovornost za pružanje obuke za korištenje alata git i gitflow u projektima tvrtke. Radim s klijentima uglavnom u Venezueli i Panami. Upotreba SCRUM metodologije.",
+        "OUTSOURCE": "Razvoj sustava za upravljanje ljudskim resursima, razvoj modula za odabir i zapošljavanje osoblja, automatizacija testova pravopisa, boje i prihoda te razvoj modula ugovora, godišnjeg odmora, primjene dokaza o radu, unaprijednosti koristi, bilance socijalnih beneficija i ocjene učinkovitosti, programirano u C# jeziku, asp.net.",
+        "MICORP": "Migracija s Oracle baze podataka na Postgres hidrokarbonskog marketinškog sustava (SCH). Razvoj ETL i validacijskog modula migriranih podataka u PHP jeziku."
       }
   }
 }

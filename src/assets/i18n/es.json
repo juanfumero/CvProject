@@ -8,7 +8,19 @@
         "PHONE": "Teléfono",
         "EMAIL": "Email",
         "ADDRESS": "Dirección",
-        "HELLO": "Hola!"
+        "HELLO": "Hola!",
+        "RESUME": "Mi currículum",
+        "WORK": "Experiencia laboral",
+        "SENIOR": "Desarrollador Senior",
+        "JUNIOR": "Desarrollador Junior",
+        "EDUCATION": "Education",
+        "BABEL": "Desarrollador Front-end en aplicaciones de seguros con Angular 15",
+        "ALTEN": "Desarrollo de aplicaciones web en la API de Vue 3. Desarrollador de aplicaciones móviles y web para la empresa Alten utilizando el framework Angular 12, TypeScript. Desarrollo de aplicaciones móviles en IONIC 5 y Angular 10 para el puerto de Barcelona. Desarrollo en Angular 2/4/5/6 con creación de componentes. Uso de tuberías, creación y uso de servicios. Acceso a datos a través de HTTP, uso de observables, envío de solicitudes HTTP, suscripciones a colecciones observables. Rutas y navegación. Uso de las bibliotecas de componentes ngx-boostrap y ng-bostrap, así como de la biblioteca NgRx y RxJs.",
+        "WIKOT": "Desarrollo y adaptación de sitios web utilizando lenguajes de programación como PHP, HTML, jQuery, JavaScript. Uso del framework yii2 y angular.js, así como el uso de gestores de contenido como Wordpress y Prestashop.",
+        "AVANADE": "Desarrollo en la estadísticas de seguimiento de la página web de recetas electrónicas integrales (SIRE), en lenguaje C#, asp.net, base de datos SqlServer.",
+        "SYNERGY": "Desarrollo de aplicaciones móviles para dispositivos Android y Blackberry dirigidas a la industria bancaria y de seguros. Análisis de requisitos en el área de movilidad y preparación de estimaciones de tiempo. Responsable de proporcionar formación para el uso de las herramientas git y gitflow en los proyectos de la empresa. Trabajo con clientes principalmente en Venezuela y Panamá. Uso de la metodología SCRUM.",
+        "OUTSOURCE": "Desarrollo del Sistema de Gestión de Recursos Humanos, desarrollo del módulo de selección y reclutamiento de personal, automatización de las pruebas de ortografía, color y reven, y desarrollo de los módulos de contrato, vacaciones, aplicación de Prueba de Trabajo, Anticipo de Beneficios, balances de beneficios sociales y evaluación de rendimiento, programado en lenguaje C#, asp.net.",
+        "MICORP": "Migración de la base de datos Oracle a Postgres del sistema de marketing de hidrocarburos (SCH). Desarrollo del módulo de ETL y validación de los datos migrados en lenguaje PHP."
       }
   }
 }

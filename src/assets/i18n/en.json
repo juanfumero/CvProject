@@ -8,7 +8,19 @@
         "PHONE": "Phone",
         "EMAIL": "Email",
         "ADDRESS": "Address",
-        "HELLO": "Hello there!"
+        "HELLO": "Hello there!",
+        "RESUME": "My Resume",
+        "WORK": "Work Experience",
+        "SENIOR": "Senior Developer",
+        "JUNIOR": "Junior Developer",
+        "EDUCATION": "Education",
+        "BABEL": "Front-end developer in insurance applications with Angular 15",
+        "ALTEN": "Web application development in Vue 3 application API.Mobile and web application developer for the company Alten using the Angular 12 framework, typescript. Mobile application development in IONIC 5 and Angular 10 for the port of Barcelona. Developing in Angular 2/4/5/6 work with component creation. Use of pipes, creation and use of services. Access to data through HTTP, use of observables, sending HTTP requests, subscriptions to observable collections. Routes and navigation. Use of the ngx-boostrap and ng-bostrap component libraries as well as the NgRx and RxJs library.",
+        "WIKOT": "Websites Development and adaptation using programming language like php, html, jquery, javascript. Using framework yii2 and angular.js, as well as the use of content managers such as Wordpress and Prestashop.",
+        "AVANADE": "Developing in the monitoring statistics of the integral electonics prescriptions web page (SIRE), in C# language, asp.net, SqlServer database.",
+        "SYNERGY": "Development of mobile applications for Android and Blackberry devices aimed at the banking and insurance industry. Survey of requirements in the area of mobility and preparation of time estimates. Responsible for providing training for the use of the git and gitflow tools in the company's projects. I work with clients mainly in Venezuela and Panama. Use of the SCRUM methodology.",
+        "OUTSOURCE": "Development of the Human Resources Management System, development of the selection and recruitment staff module, automating the spelling, color and reven tests and developing the modules of contract, vacation, application of Proof of Work, Advance of Benefits, balances of social benefits and performance evaluation, programmed in C# language, asp.net.",
+        "MICORP": "Migration from Oracle database to Postgres of the hydrocarbon marketing system (SCH). Development of the ETL and validation module of the migrated data in PHP language."
       }
   }
 }
