@@ -11,16 +11,26 @@
             <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
               <div class="profile-thumb" style="background: url(assets/images/jfumero.JPG);"></div>
               <h1><span>Juan Fumero</span></h1>
-              <h3><span>Software Developer | Angular</span></h3>
-              
-              <ul class="fh5co-social-icons">
+              <h3><span>Software Developer | Angular   {{"HOMNE.INFORMATION.INFO" | translate}}</span></h3>
+              <ul class="fh5co-social-icons move-top">
                 <li><a href="#"><i class="icon-twitter2"></i></a></li>
                 <li><a href="#"><i class="icon-facebook2"></i></a></li>
                 <li><a href="#"><i class="icon-linkedin2"></i></a></li>
                 <li><a href="#"><i class="icon-dribbble2"></i></a></li>
               </ul>
-          
+              <ul class="fh5co-social-icons move-top">
+                <li><button class="flat fi fi-es fis fa-4x" (click)="switchLanguage('es')"></button></li>
+                <li><button class="flat fi fi-us fis fa-4x" (click)="switchLanguage('en')"></button></li>
+                <li><button class="flat fi fi-hr fis fa-4x" (click)="switchLanguage('hr')"></button></li>
+              </ul>
             </div>
+
+            <!-- <div class="content-flat">
+              <div class="flat" style="background-color: blue;"></div>
+              <div class="flat" style="background-color: red;"></div>
+              <div class="flat" style="background-color: green;"></div>
+              <div class="flat" style="background-color: yellow;"></div>
+            </div> -->
           </div>
         </div>
       </div>

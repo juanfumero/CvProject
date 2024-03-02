@@ -1,0 +1,18 @@
+.content-flat {
+    display: flex;
+    justify-content: space-around;
+    width: 300px; /* Ancho del contenedor */
+
+  }
+  .flat {
+    width: 50px; /* Ancho de cada bandera */
+    height: 30px; /* Altura de cada bandera */
+    border: 1px solid #000; /* Borde de las banderas */
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+
+.move-top {
+    padding-top: 20px;
+}

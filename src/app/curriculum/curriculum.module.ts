@@ -1,4 +1,5 @@
 
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es';
 registerLocaleData(localeEs, 'es');
@@ -9,6 +10,9 @@ import { HomeComponent } from './home/home.component';
 import { curriculumRoutingModule } from './curriculum-routing.module';
 import { ChartComponent } from './home/chart/chart.component';
 import { ProgressComponent } from './home/progress/progress.component';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { getBaseUrl } from '../shared/utils';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,15 @@ import { ProgressComponent } from './home/progress/progress.component';
     curriculumRoutingModule,
     CommonModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+        loader: {
+          provide: TranslateLoader,
+          useFactory: HttpLoaderFactory,
+          deps: [HttpClient]
+        }  
+      }),
   ],
   providers: [
     // ShipsService,
@@ -29,3 +41,8 @@ import { ProgressComponent } from './home/progress/progress.component';
 })
 
 export class CurriculumModule { }
+
+export function HttpLoaderFactory(http: HttpClient) {
+    return new TranslateHttpLoader(http);
+  }
+  
