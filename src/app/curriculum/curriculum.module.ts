@@ -43,6 +43,7 @@ import { getBaseUrl } from '../shared/utils';
 export class CurriculumModule { }
 
 export function HttpLoaderFactory(http: HttpClient) {
-    return new TranslateHttpLoader(http);
+    return new TranslateHttpLoader(http, './assets/i18n/', '.json');
   }
   
+
