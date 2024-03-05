@@ -14,19 +14,24 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { getBaseUrl } from '../shared/utils';
 import { ExperienceComponent } from './home/experience/experience.component';
+import { ProviderComponent } from './home/provider/provider.component';
+import { ContactComponent } from './home/contact/contact.component';
 
 @NgModule({
   declarations: [
   HomeComponent,
   ChartComponent, 
   ProgressComponent,
-  ExperienceComponent],
+  ExperienceComponent,
+  ProviderComponent,
+  ContactComponent],
   imports: [
     curriculumRoutingModule,
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
         loader: {
           provide: TranslateLoader,
