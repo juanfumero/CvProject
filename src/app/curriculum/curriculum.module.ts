@@ -13,12 +13,14 @@ import { ProgressComponent } from './home/progress/progress.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { getBaseUrl } from '../shared/utils';
+import { ExperienceComponent } from './home/experience/experience.component';
 
 @NgModule({
   declarations: [
   HomeComponent,
   ChartComponent, 
-  ProgressComponent],
+  ProgressComponent,
+  ExperienceComponent],
   imports: [
     curriculumRoutingModule,
     CommonModule,

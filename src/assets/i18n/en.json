@@ -20,7 +20,25 @@
         "AVANADE": "Developing in the monitoring statistics of the integral electonics prescriptions web page (SIRE), in C# language, asp.net, SqlServer database.",
         "SYNERGY": "Development of mobile applications for Android and Blackberry devices aimed at the banking and insurance industry. Survey of requirements in the area of mobility and preparation of time estimates. Responsible for providing training for the use of the git and gitflow tools in the company's projects. I work with clients mainly in Venezuela and Panama. Use of the SCRUM methodology.",
         "OUTSOURCE": "Development of the Human Resources Management System, development of the selection and recruitment staff module, automating the spelling, color and reven tests and developing the modules of contract, vacation, application of Proof of Work, Advance of Benefits, balances of social benefits and performance evaluation, programmed in C# language, asp.net.",
-        "MICORP": "Migration from Oracle database to Postgres of the hydrocarbon marketing system (SCH). Development of the ETL and validation module of the migrated data in PHP language."
+        "MICORP": "Migration from Oracle database to Postgres of the hydrocarbon marketing system (SCH). Development of the ETL and validation module of the migrated data in PHP language.",
+        "COMPUTERINFO": "Computer Engineer",
+        "COMPUTERTITULO": "Degree in Computer Engineering",
+        "COURSE": "Licenses & certifications",
+        "QUALIFICATION": "Qualification as Bachelor in Sciences",
+        "STUDYTITLE": "Bachelor Degree",
+        "COURSETITLE1": "Workshop: Functional Mobile Applications (Programming jQuery Mobile components and dynamic user interaction)",
+        "COURSETITLE2": "Workshop: Mobile Application Development with HTML + CSS + JavaScript + jQuery ONLINE",
+        "COURSETITLE3": "Workshop: Mobile Application Design with jQuery Mobile (Components and User Interface) ONLINE",
+        "COURSETITLE4": "React - The Complete Guide",
+        "COURSETITLE5": "React Js",
+        "COURSETITLE6": "Ionic 3",
+        "CREDENTIALREACT": "Credential UC-3ae1e785-b030-4274-9a9c-e332e2bc6fc0",
+        "CREDENTIALREACTJS": "Credential UC-HPCLSXNI",
+        "CREDENTIALIONIC3": "Credential UC-ZQ6ND0Z2",
+        "CREDENTIALCOURSE1": "Credential COD-83554",
+        "CREDENTIALCORUSE2": "Credential COD-83548",
+        "CREDENTIALCORUSE3": "Credential COD-83551",
+        "SHOWCREDENTIAL": "Show credential"
       }
   }
 }

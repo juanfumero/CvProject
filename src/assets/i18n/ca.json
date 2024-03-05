@@ -20,7 +20,25 @@
         "AVANADE": "Desenvolupament en les estadístiques de seguiment de la pàgina web de receptes electròniques integrals (SIRE), en llenguatge C#, asp.net, base de dades SqlServer.",
         "SYNERGY": "Desenvolupament d'aplicacions mòbils per a dispositius Android i Blackberry dirigides a la indústria bancària i d'assegurances. Anàlisi de requisits en l'àrea de mobilitat i preparació d'estimacions de temps. Responsable de proporcionar formació per a l'ús de les eines git i gitflow en els projectes de l'empresa. Treball amb clients principalment a Veneçuela i Panamà. Ús de la metodologia SCRUM.",
         "OUTSOURCE": "Desenvolupament del Sistema de Gestió de Recursos Humans, desenvolupament del mòdul de selecció i reclutament de personal, automatització de les proves d'ortografia, color i reven, i desenvolupament dels mòduls de contracte, vacances, aplicació de Prova de Treball, Anticipo de Beneficis, balanços de beneficis socials i avaluació de rendiment, programat en llenguatge C#, asp.net.",
-        "MICORP": "Migració de la base de dades Oracle a Postgres del sistema de màrqueting de hidrocarburs (SCH). Desenvolupament del mòdul d'ETL i validació de les dades migrades en llenguatge PHP."
+        "MICORP": "Migració de la base de dades Oracle a Postgres del sistema de màrqueting de hidrocarburs (SCH). Desenvolupament del mòdul d'ETL i validació de les dades migrades en llenguatge PHP.",
+        "COMPUTERINFO": "Enginyer Informàtic",
+        "COMPUTERTITULO": "Grau en Enginyeria Informàtica",
+        "COURSE": "Llicències i certificacions",
+        "QUALIFICATION": "Qualificació com a batxiller en ciències",
+        "STUDYTITLE": "Grau de Batxiller",
+        "COURSETITLE1": "Jornada: Aplicacions Mòbils funcionals (Programació de components de jQuery mobile i interacció dinàmica amb l'usuari)",
+        "COURSETITLE2": "Jornada: Desenvolupament d'aplicacions mòbils amb HTML + CSS + JavaScript + jQuery ONLINE",
+        "COURSETITLE3": "Jornada: Disseny d'aplicacions mòbils amb jQuery mobile (Components i interfície d'usuari) ONLINE",
+        "COURSETITLE4": "React - La guia completa",
+        "COURSETITLE5": "React Js",
+        "COURSETITLE6": "Ionic 3",
+        "CREDENTIALREACT": "Credencial UC-3ae1e785-b030-4274-9a9c-e332e2bc6fc0",
+        "CREDENTIALREACTJS": "Credencial UC-HPCLSXNI",
+        "CREDENTIALIONIC3": "Credencial UC-ZQ6ND0Z2",
+        "CREDENTIALCOURSE1": "Credencial COD-83554",
+        "CREDENTIALCORUSE2": "Credencial COD-83548",
+        "CREDENTIALCORUSE3": "Credencial COD-83551",
+        "SHOWCREDENTIAL": "Mostrar credencial"
       }
   }
 }
