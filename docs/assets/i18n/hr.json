@@ -20,7 +20,25 @@
         "AVANADE": "Razvoj u statistici praćenja integralnih elektronskih recepata web stranice (SIRE), u C# jeziku, asp.net, SqlServer bazi podataka.",
         "SYNERGY": "Razvoj mobilnih aplikacija za Android i Blackberry uređaje usmjerene na bankarsku i osiguravateljsku industriju. Istraživanje zahtjeva u području mobilnosti i priprema procjena vremena. Odgovornost za pružanje obuke za korištenje alata git i gitflow u projektima tvrtke. Radim s klijentima uglavnom u Venezueli i Panami. Upotreba SCRUM metodologije.",
         "OUTSOURCE": "Razvoj sustava za upravljanje ljudskim resursima, razvoj modula za odabir i zapošljavanje osoblja, automatizacija testova pravopisa, boje i prihoda te razvoj modula ugovora, godišnjeg odmora, primjene dokaza o radu, unaprijednosti koristi, bilance socijalnih beneficija i ocjene učinkovitosti, programirano u C# jeziku, asp.net.",
-        "MICORP": "Migracija s Oracle baze podataka na Postgres hidrokarbonskog marketinškog sustava (SCH). Razvoj ETL i validacijskog modula migriranih podataka u PHP jeziku."
+        "MICORP": "Migracija s Oracle baze podataka na Postgres hidrokarbonskog marketinškog sustava (SCH). Razvoj ETL i validacijskog modula migriranih podataka u PHP jeziku.",
+        "COMPUTERINFO": "Računalni inženjer",
+        "COMPUTERTITULO": "Diploma kao inženjer računarstva",
+        "COURSE": "Dovoljenja i certifikati",
+        "QUALIFICATION": "Kvalifikacija kao bakalar u znanosti",
+        "STUDYTITLE": "Diploma o bakalaureatu",
+        "COURSETITLE1": "Radionica: Funkcionalne mobilne aplikacije (Programiranje komponenata jQuery mobilnog i dinamična interakcija s korisnikom)",
+        "COURSETITLE2": "Radionica: Razvoj mobilne aplikacije s HTML + CSS + JavaScript + jQuery ONLINE",
+        "COURSETITLE3": "Radionica: Dizajn mobilne aplikacije s jQuery Mobile (Komponente i korisničko sučelje) ONLINE",
+        "COURSETITLE4": "React - Potpuni vodič",
+        "COURSETITLE5": "React Js",
+        "COURSETITLE6": "Ionic 3",
+        "CREDENTIALREACT": "Vjerodajnica UC-3ae1e785-b030-4274-9a9c-e332e2bc6fc0",
+        "CREDENTIALREACTJS": "Vjerodajnica UC-HPCLSXNI",
+        "CREDENTIALIONIC3": "Vjerodajnica UC-ZQ6ND0Z2",
+        "CREDENTIALCOURSE1": "Vjerodajnica COD-83554",
+        "CREDENTIALCORUSE2": "Vjerodajnica COD-83548",
+        "CREDENTIALCORUSE3": "Vjerodajnica COD-83551",
+        "SHOWCREDENTIAL": "Prikaži vjerodajnicu"
       }
   }
 }

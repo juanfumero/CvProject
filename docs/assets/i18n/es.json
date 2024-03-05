@@ -20,7 +20,25 @@
         "AVANADE": "Desarrollo en la estadísticas de seguimiento de la página web de recetas electrónicas integrales (SIRE), en lenguaje C#, asp.net, base de datos SqlServer.",
         "SYNERGY": "Desarrollo de aplicaciones móviles para dispositivos Android y Blackberry dirigidas a la industria bancaria y de seguros. Análisis de requisitos en el área de movilidad y preparación de estimaciones de tiempo. Responsable de proporcionar formación para el uso de las herramientas git y gitflow en los proyectos de la empresa. Trabajo con clientes principalmente en Venezuela y Panamá. Uso de la metodología SCRUM.",
         "OUTSOURCE": "Desarrollo del Sistema de Gestión de Recursos Humanos, desarrollo del módulo de selección y reclutamiento de personal, automatización de las pruebas de ortografía, color y reven, y desarrollo de los módulos de contrato, vacaciones, aplicación de Prueba de Trabajo, Anticipo de Beneficios, balances de beneficios sociales y evaluación de rendimiento, programado en lenguaje C#, asp.net.",
-        "MICORP": "Migración de la base de datos Oracle a Postgres del sistema de marketing de hidrocarburos (SCH). Desarrollo del módulo de ETL y validación de los datos migrados en lenguaje PHP."
+        "MICORP": "Migración de la base de datos Oracle a Postgres del sistema de marketing de hidrocarburos (SCH). Desarrollo del módulo de ETL y validación de los datos migrados en lenguaje PHP.",
+        "COMPUTERINFO": "Ingeniero Informático",
+        "COMPUTERTITULO": "Titulación como Ingeniero Informático",
+        "COURSE": "Licencias y certificaciones",
+        "QUALIFICATION": "Titulación como bachiller en ciencias",
+        "STUDYTITLE": "Grado Bachiller",
+        "COURSETITLE1": "Jornada: Aplicaciones Móviles funcionales (Programación de componentes de jQuery mobile e interacción dinámica con el usuario)",
+        "COURSETITLE2": "Jornada: Desarrollo Aplicación Móvil con HTML + CSS + JavaScript + jQuery ONLINE",
+        "COURSETITLE3": "Jornada: Diseño Aplicación Móvil con jQuery mobile (Componentes e interfaz de usuario) ONLINE",
+        "COURSETITLE4": "React - The Complete Guide",
+        "COURSETITLE5": "React Js",
+        "COURSETITLE6": "Ionic 3",
+        "CREDENTIALREACT": "Credencial UC-3ae1e785-b030-4274-9a9c-e332e2bc6fc0",
+        "CREDENTIALREACTJS": "Credencial UC-HPCLSXNI",
+        "CREDENTIALIONIC3": "Credencial UC-ZQ6ND0Z2",
+        "CREDENTIALCOURSE1": "Credencial COD-83554",
+        "CREDENTIALCORUSE2": "Credencial COD-83548",
+        "CREDENTIALCORUSE3": "Credencial COD-83551",
+        "SHOWCREDENTIAL": "Mostrar credencial"
       }
   }
 }
