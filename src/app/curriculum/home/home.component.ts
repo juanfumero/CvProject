@@ -15,6 +15,10 @@ export class HomeComponent implements OnInit {
   experienceJob: Experience = { title: '' , experienceList: []};
   experienceEducation: Experience = { title: '' , experienceList: []};
   experienceCourse: Experience = { title: '' , experienceList: []};
+  showAllfirst: boolean = false;
+  showAllSecond: boolean = false;
+  showAllThird: boolean = false;
+  isContactUs: boolean = false;
   constructor(private translate: TranslateService) { }
 
   ngOnInit() {
@@ -25,6 +29,26 @@ export class HomeComponent implements OnInit {
     this.addInfoExeperienceJob();
     this.addInfoExperienceEducation();
     this.addInfoExperienceCourse();
+  }
+
+  toggleShowAll(position: string) {
+    if ( position === 'first') {
+      this.showAllfirst = !this.showAllfirst;
+    }
+    if ( position === 'second') {
+      this.showAllSecond = !this.showAllSecond;
+    }
+    if ( position === 'third') {
+      this.showAllThird = !this.showAllThird;
+    }
+  }
+
+  contactInfo() {
+    this.isContactUs = true;
+    const element = document.getElementById('map');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+    }
   }
 
   addInfoExeperienceJob() {

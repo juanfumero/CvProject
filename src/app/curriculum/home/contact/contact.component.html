@@ -1,7 +1,7 @@
   <form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
     <div class="row form-group">
       <div class="col-md-6">
-        <input formControlName="fname" type="text" class="form-control" [ngClass]="{'error-input': formGroup.get('fname')?.invalid && (formGroup.get('fname')?.dirty || formGroup.get('fname')?.touched)}" placeholder="Your firstname">
+        <input id="fname" formControlName="fname" type="text" class="form-control" [ngClass]="{'error-input': formGroup.get('fname')?.invalid && (formGroup.get('fname')?.dirty || formGroup.get('fname')?.touched)}" placeholder="Your firstname">
         <div *ngIf="formGroup.get('fname')?.invalid && (formGroup.get('fname')?.dirty || formGroup.get('fname')?.touched)"
         class="text-danger">Completa el nombre</div>
       </div>
