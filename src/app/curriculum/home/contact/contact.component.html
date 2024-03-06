@@ -1,69 +1,43 @@
-<!-- <form action="#">
-    <div class="row form-group">
-      <div class="col-md-6">
-        <input type="text" id="fname" class="form-control" placeholder="Your firstname">
-      </div>
-    </div>
-    <div class="row form-group">
-      <div class="col-md-6">
-        <input type="text" id="lname" class="form-control" placeholder="Your lastname">
-      </div>
-    </div>
-
-    <div class="row form-group">
-      <div class="col-md-12">
-        <input type="text" id="email" class="form-control" placeholder="Your email address">
-      </div>
-    </div>
-
-    <div class="row form-group">
-      <div class="col-md-12">
-        <input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-      </div>
-    </div>
-
-    <div class="row form-group">
-      <div class="col-md-12">
-        <textarea name="message" id="message" cols="30" rows="10" class="form-control"
-          placeholder="Say something about us"></textarea>
-      </div>
-    </div>
-    <div class="form-group">
-      <input type="submit" value="Send Message" class="btn btn-primary">
-    </div>
-
-  </form> -->
-
   <form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
     <div class="row form-group">
       <div class="col-md-6">
-        <input formControlName="fname" type="text" class="form-control" placeholder="Your firstname">
+        <input formControlName="fname" type="text" class="form-control" [ngClass]="{'error-input': formGroup.get('fname')?.invalid && (formGroup.get('fname')?.dirty || formGroup.get('fname')?.touched)}" placeholder="Your firstname">
+        <div *ngIf="formGroup.get('fname')?.invalid && (formGroup.get('fname')?.dirty || formGroup.get('fname')?.touched)"
+        class="text-danger">Completa el nombre</div>
       </div>
     </div>
     <div class="row form-group">
       <div class="col-md-6">
-        <input formControlName="lname" type="text" class="form-control" placeholder="Your lastname">
+        <input formControlName="lname" type="text" class="form-control" [ngClass]="{'error-input': formGroup.get('lname')?.invalid && (formGroup.get('lname')?.dirty || formGroup.get('lname')?.touched)}" placeholder="Your lastname">
+        <div *ngIf="formGroup.get('lname')?.invalid && (formGroup.get('lname')?.dirty || formGroup.get('lname')?.touched)"
+        class="text-danger">Completa el apellido</div>
       </div>
     </div>
   
     <div class="row form-group">
       <div class="col-md-12">
-        <input formControlName="email" type="text" class="form-control" placeholder="Your email address">
+        <input formControlName="email" type="text" class="form-control" [ngClass]="{'error-input': formGroup.get('email')?.invalid && (formGroup.get('email')?.dirty || formGroup.get('email')?.touched)}" placeholder="Your email address">
+        <div *ngIf="formGroup.get('email')?.invalid && (formGroup.get('email')?.dirty || formGroup.get('email')?.touched)"
+        class="text-danger">Completa el email</div>
       </div>
     </div>
   
     <div class="row form-group">
       <div class="col-md-12">
-        <input formControlName="subject" type="text" class="form-control" placeholder="Your subject of this message">
+        <input formControlName="subject" type="text" class="form-control" [ngClass]="{'error-input': formGroup.get('subject')?.invalid && (formGroup.get('subject')?.dirty || formGroup.get('subject')?.touched)}" placeholder="Your subject of this message">
+        <div *ngIf="formGroup.get('subject')?.invalid && (formGroup.get('subject')?.dirty || formGroup.get('subject')?.touched)"
+        class="text-danger">Completa el asunto</div>
       </div>
     </div>
   
     <div class="row form-group">
       <div class="col-md-12">
-        <textarea formControlName="message" class="form-control" placeholder="Say something about us" rows="10"></textarea>
+        <textarea formControlName="message" class="form-control" [ngClass]="{'error-input': formGroup.get('message')?.invalid && (formGroup.get('message')?.dirty || formGroup.get('message')?.touched)}" placeholder="Say something about us" rows="10"></textarea>
+        <div *ngIf="formGroup.get('message')?.invalid && (formGroup.get('message')?.dirty || formGroup.get('message')?.touched)"
+        class="text-danger">Completa el mensaje</div>
       </div>
     </div>
     <div class="form-group">
-      <button type="submit" class="btn btn-primary" [disabled]="formGroup.valid">Send Message</button>
+      <button type="submit" class="btn btn-primary" [disabled]="!formGroup.valid">Send Message</button>
     </div>
   </form>
