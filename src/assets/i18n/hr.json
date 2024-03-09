@@ -38,7 +38,9 @@
         "CREDENTIALCOURSE1": "Vjerodajnica COD-83554",
         "CREDENTIALCORUSE2": "Vjerodajnica COD-83548",
         "CREDENTIALCORUSE3": "Vjerodajnica COD-83551",
-        "SHOWCREDENTIAL": "Prikaži vjerodajnicu"
+        "SHOWCREDENTIAL": "Prikaži vjerodajnicu",
+        "TITLE_WORK": "Posao",
+        "SKILL": "Vještine"
       }
   }
 }

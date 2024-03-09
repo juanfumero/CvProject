@@ -16,6 +16,7 @@ import { getBaseUrl } from '../shared/utils';
 import { ExperienceComponent } from './home/experience/experience.component';
 import { ProviderComponent } from './home/provider/provider.component';
 import { ContactComponent } from './home/contact/contact.component';
+import { WorkComponent } from './home/work/work.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactComponent } from './home/contact/contact.component';
   ProgressComponent,
   ExperienceComponent,
   ProviderComponent,
-  ContactComponent],
+  ContactComponent,
+  WorkComponent],
   imports: [
     curriculumRoutingModule,
     CommonModule,

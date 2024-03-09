@@ -38,7 +38,9 @@
         "CREDENTIALCOURSE1": "Credencial COD-83554",
         "CREDENTIALCORUSE2": "Credencial COD-83548",
         "CREDENTIALCORUSE3": "Credencial COD-83551",
-        "SHOWCREDENTIAL": "Mostrar credencial"
+        "SHOWCREDENTIAL": "Mostrar credencial",
+        "TITLE_WORK": "Trabajo",
+        "SKILL": "Habilidades"
       }
   }
 }
