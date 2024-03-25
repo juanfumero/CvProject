@@ -40,7 +40,48 @@
         "CREDENTIALCORUSE3": "Credential COD-83551",
         "SHOWCREDENTIAL": "Show credential",
         "TITLE_WORK": "Work",
-        "SKILL": "Skills"
+        "SKILL": "Skills",
+        "HIRE_ME": "Hire Me!",
+        "CONTACT_US": "Contact Us",
+        "HIRE_ME_INFO": "With over 12 years of experience in the field of computer science, I am pleased to introduce myself as a highly experienced and passionate Frontend developer, specialized in the latest versions of Angular. Throughout my career, I have cultivated a solid reputation for my commitment to technical excellence, my ability to quickly adapt to new challenges, and my disciplined approach to delivering exceptional results. My journey includes creating innovative and functional user interfaces for a wide range of web applications, from enterprise-scale projects to mobile applications. I have led development teams, bringing not only my technical skills but also my ability to inspire and motivate my colleagues towards collective success. I consider myself a lifelong learner and am constantly seeking new opportunities to expand my knowledge and skills. I am convinced that the technology industry is advancing at a rapid pace, and I am committed to staying abreast of the latest trends and practices to provide cutting-edge solutions to our clients. My focus on responsibility, dedication, and continuous improvement has allowed me to excel in demanding and dynamic environments. I am eager to bring my experience and passion for technology to your team, contributing to the success of your projects and the growth of your company. I am available to discuss how I can be a valuable asset to your team and to answer any questions you may have."
+      },
+      "SERVICE": {
+        "MY_SERVICE": "My services",
+        "INTERFACE": "User Interface Development (UI)",
+        "DESCRIPTION_INTERFACE": "Create interactive and attractive user interfaces using Angular to enhance user experience.",
+        "API_INTEGRATION": "API Integration",
+        "API_INTEGRATION_DESCRIPTION": "Connect frontend application with backend services by integrating APIs to efficiently retrieve and send data.",
+        "TECNIC": "Technical Consulting and Advisory",
+        "TECNIC_DESCRIPTION": "Provide technical advice on Angular best development practices, application architecture, and recommendations to enhance efficiency and scalability.",
+        "WEB_APPLICATION": "Web Application Development",
+        "WEB_APPLICATION_DESCRIPTION": "Build scalable and efficient web applications using Angular as the main framework.",
+        "UPDATE": "Maintenance and Update",
+        "UPDATE_INFORMATION": "Provide ongoing maintenance services to ensure that the Angular application is up-to-date, secure, and functioning smoothly.",
+        "TEST": "Testing and Debugging",
+        "TEST_DESCRIPTION": "Perform exhaustive testing and debugging to identify and solve errors, ensuring code quality and application stability."
+      },
+      "PROJECT": {
+        "TITLE": "Featured Projects",
+        "DESCRIPTION": "In my Featured Projects section, I highlight some of the most outstanding works in which I have had the privilege to participate. From innovative web applications to exciting development projects, each project reflects my commitment to excellence and creativity at every step of the process. Explore my selection to discover how I have transformed ideas into tangible and successful solutions.",
+        "COMMERZBANK_DESCRIPTION": "Maintenance was carried out on the application at the component level, improvements were made, and incidents reported by the QA department were resolved.",
+        "HTG_DESCRIPTION": "In this project, evolutionary processes required by the client were carried out, a table component developed from scratch and customized according to the client's needs was maintained, and work was done on reactive forms. Resolution of incidents in production reported by the client.",
+        "PORTIC_DESCRIPTION": "For this project, the frontend part was redesigned to be adapted to the best practices in terms of usability, visibility, and design, resulting in a simpler application oriented to transactions that are carried out in it. A re-engineering of the bases of the applications was carried out, with the purpose of breaking down the current concept of file and thus adapting the applications to the reality that occurs on the platform. For this application, Angular 8 was used, with NgRx libraries for state management, RxJs for asynchronous data management, the application contains a library of client-specific components developed with ngx-boostrap, the application also has a module for multilanguages.",
+        "READ_MORE": "Read More",
+        "SHOW_LESS": "Show Less"
+      },
+      "CONTACT": {
+        "TITLE": "Contact",
+        "FIRST_NAME": "Your first name",
+        "VALIDATE_FIRST_NAME": "Complete the first name",
+        "LAST_NAME": "Your last name",
+        "VALIDATE_LAST_NAME": "Complete the last name",
+        "EMAIL_ADDRESS": "Your email address",
+        "VALIDATE_EMAIL_ADDRESS": "Complete the email",
+        "SUBJECT_MESSAGE": "The subject of this message",
+        "VALIDATE_SUBJECT_MESSAGE": "Complete the subject",
+        "ABOUT_US": "Your message",
+        "VALIDATE_ABOUT_US": "Complete the message",
+        "SEND_MESSAGE": "Send message"
       }
   }
 }

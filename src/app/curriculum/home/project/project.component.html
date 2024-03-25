@@ -1,0 +1,60 @@
+<div id="fh5co-blog">
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+          <h2>{{"HOMNE.PROJECT.TITLE" | translate}}</h2>
+          <p>{{"HOMNE.PROJECT.DESCRIPTION" | translate}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="fh5co-blog animate-box">
+            <a href="#" class="blog-bg border-panel-info" style="background-image: url(assets/images/commerzbank.jpg);"></a>
+            <div class="blog-text">
+              <span class="posted_on">2022</span>
+              <h3><a href="#">Commerzbank</a></h3>
+              <p [ngClass]="{'show-all': showAllfirst, 'content-text': !showAllfirst}">{{"HOMNE.PROJECT.COMMERZBANK_DESCRIPTION" | translate}}</p>
+              <ul class="stuff">
+                <!-- <li><i class="icon-heart2"></i>249</li>
+                <li><i class="icon-eye2"></i>308</li> -->
+                <li *ngIf="!showAllfirst"><div (click)="toggleShowAll('first')">{{"HOMNE.PROJECT.READ_MORE" | translate}}<i class="icon-arrow-right22"></i></div></li>
+                <li *ngIf="showAllfirst"><div (click)="toggleShowAll('first')">{{"HOMNE.PROJECT.SHOW_LESS" | translate}}<i class="icon-arrow-right22"></i></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="fh5co-blog animate-box">
+            <a href="#" class="blog-bg border-panel-info" style="background-image: url(assets/images/htgroup.png);"></a>
+            <div class="blog-text">
+              <span class="posted_on">2022</span>
+              <h3><a href="#">HTG</a></h3>
+              <p [ngClass]="{'show-all': showAllSecond , 'content-text': !showAllSecond}">{{"HOMNE.PROJECT.HTG_DESCRIPTION" | translate}}</p>
+              <ul class="stuff">
+                <!-- <li><i class="icon-heart2"></i>249</li>
+                <li><i class="icon-eye2"></i>308</li> -->
+                <li *ngIf="!showAllSecond"><div (click)="toggleShowAll('second')">{{"HOMNE.PROJECT.READ_MORE" | translate}}<i class="icon-arrow-right22"></i></div></li>
+                <li *ngIf="showAllSecond"><div (click)="toggleShowAll('second')">{{"HOMNE.PROJECT.SHOW_LESS" | translate}}<i class="icon-arrow-right22"></i></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="fh5co-blog animate-box">
+            <a href="#" class="blog-bg border-panel-info" style="background-image: url(assets/images/portic.jpg);"></a>
+            <div class="blog-text">
+              <span class="posted_on">2017</span>
+              <h3><a href="#">Portic</a></h3>
+              <p [ngClass]="{'show-all': showAllThird , 'content-text': !showAllThird}">{{"HOMNE.PROJECT.PORTIC_DESCRIPTION" | translate}}</p>
+              <ul class="stuff">
+                <!-- <li><i class="icon-heart2"></i>249</li>
+                <li><i class="icon-eye2"></i>308</li> -->
+                <li *ngIf="!showAllThird"><div (click)="toggleShowAll('third')">{{"HOMNE.PROJECT.READ_MORE" | translate}}<i class="icon-arrow-right22"></i></div></li>
+                <li *ngIf="showAllThird"><div (click)="toggleShowAll('third')">{{"HOMNE.PROJECT.SHOW_LESS" | translate}}<i class="icon-arrow-right22"></i></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

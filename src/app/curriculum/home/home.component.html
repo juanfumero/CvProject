@@ -145,67 +145,7 @@
 
   <app-work></app-work>
 
-  <div id="fh5co-blog">
-    <div class="container">
-      <div class="row animate-box">
-        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-          <h2>Post on Medium</h2>
-          <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab
-            aliquam dolor eius.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="fh5co-blog animate-box">
-            <a href="#" class="blog-bg border-panel-info" style="background-image: url(assets/images/commerzbank.jpg);"></a>
-            <div class="blog-text">
-              <span class="posted_on">Mar. 15th 2016</span>
-              <h3><a href="#">Photoshoot On The Street</a></h3>
-              <p [ngClass]="{'show-all': showAllfirst, 'content-text': !showAllfirst}">Maintenance was carried out on the application at the component level, improvements were made and incidents reported by the QA department were resolved.</p>
-              <ul class="stuff">
-                <!-- <li><i class="icon-heart2"></i>249</li>
-                <li><i class="icon-eye2"></i>308</li> -->
-                <li *ngIf="!showAllfirst"><div (click)="toggleShowAll('first')">Read More<i class="icon-arrow-right22"></i></div></li>
-                <li *ngIf="showAllfirst"><div (click)="toggleShowAll('first')">Show Less<i class="icon-arrow-right22"></i></div></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="fh5co-blog animate-box">
-            <a href="#" class="blog-bg border-panel-info" style="background-image: url(assets/images/htgroup.png);"></a>
-            <div class="blog-text">
-              <span class="posted_on">Mar. 15th 2016</span>
-              <h3><a href="#">Surfing at Philippines</a></h3>
-              <p [ngClass]="{'show-all': showAllSecond , 'content-text': !showAllSecond}">In this project, evolutionary processes required by the client were carried out, a table component developed from scratch customized for the client's needs was maintained, and reactive forms were worked on. Resolution of incidents in production reported by the client.</p>
-              <ul class="stuff">
-                <!-- <li><i class="icon-heart2"></i>249</li>
-                <li><i class="icon-eye2"></i>308</li> -->
-                <li *ngIf="!showAllSecond"><div (click)="toggleShowAll('second')">Read More<i class="icon-arrow-right22"></i></div></li>
-                <li *ngIf="showAllSecond"><div (click)="toggleShowAll('second')">Show Less<i class="icon-arrow-right22"></i></div></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="fh5co-blog animate-box">
-            <a href="#" class="blog-bg border-panel-info" style="background-image: url(assets/images/portic.jpg);"></a>
-            <div class="blog-text">
-              <span class="posted_on">Mar. 15th 2016</span>
-              <h3><a href="#">Capture Living On Uderwater</a></h3>
-              <p [ngClass]="{'show-all': showAllThird , 'content-text': !showAllThird}">For this project, the frontend part was redesigned, to be adapted to the best practices in terms of usability, visibility and design, resulting in a simpler application oriented to transactions that are carried out in it. A re-engineering of the bases of the applications was carried out, with the purpose of breaking down the current concept of file and thus adapting the applications to the reality that occurs on the platform. For this application, Angular 8 was used, with NgRx libraries for state management, RxJs for asynchronous data management, the application contains a library of client-specific components developed with ngx-boostrap, the application also has a module for multilanguages.</p>
-              <ul class="stuff">
-                <!-- <li><i class="icon-heart2"></i>249</li>
-                <li><i class="icon-eye2"></i>308</li> -->
-                <li *ngIf="!showAllThird"><div (click)="toggleShowAll('third')">Read More<i class="icon-arrow-right22"></i></div></li>
-                <li *ngIf="showAllThird"><div (click)="toggleShowAll('third')">Show Less<i class="icon-arrow-right22"></i></div></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <app-project></app-project>
 
   <div id="fh5co" class="fh5co-bg-dark">
     <div class="overlay"></div>
@@ -213,11 +153,9 @@
       <div class="row animate-box">
         <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
           <br>
-          <h2>Hire Me!</h2>
-          <p style="color: white;">Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci
-            architecto culpa amet.</p>
-          <!-- <p></p> -->
-          <div (click)="contactInfo()" class="btn btn-default btn-lg">Contact Us</div>
+          <h2>{{"HOMNE.INFORMATION.HIRE_ME" | translate}}</h2>
+          <p class="justificado" style="color: white;">{{"HOMNE.INFORMATION.HIRE_ME_INFO" | translate}}</p>
+          <div (click)="contactInfo()" class="btn btn-default btn-lg">{{"HOMNE.INFORMATION.CONTACT_US" | translate}}</div>
         </div>
       </div>
     </div>
@@ -228,7 +166,7 @@
       <div class="overlay"></div>
     </div>
     <div class="choose animate-box">
-      <h2>Contact</h2>
+      <h2>{{"HOMNE.CONTACT.TITLE" | translate}}</h2>
       <app-contact></app-contact>
     </div>
   </div>

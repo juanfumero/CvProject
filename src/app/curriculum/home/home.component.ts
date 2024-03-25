@@ -31,18 +31,6 @@ export class HomeComponent implements OnInit {
     this.addInfoExperienceCourse();
   }
 
-  toggleShowAll(position: string) {
-    if ( position === 'first') {
-      this.showAllfirst = !this.showAllfirst;
-    }
-    if ( position === 'second') {
-      this.showAllSecond = !this.showAllSecond;
-    }
-    if ( position === 'third') {
-      this.showAllThird = !this.showAllThird;
-    }
-  }
-
   contactInfo() {
     this.isContactUs = true;
     const element = document.getElementById('map');

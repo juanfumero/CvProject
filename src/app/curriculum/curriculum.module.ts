@@ -17,6 +17,7 @@ import { ExperienceComponent } from './home/experience/experience.component';
 import { ProviderComponent } from './home/provider/provider.component';
 import { ContactComponent } from './home/contact/contact.component';
 import { WorkComponent } from './home/work/work.component';
+import { ProjectComponent } from './home/project/project.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { WorkComponent } from './home/work/work.component';
   ExperienceComponent,
   ProviderComponent,
   ContactComponent,
-  WorkComponent],
+  WorkComponent,
+  ProjectComponent],
   imports: [
     curriculumRoutingModule,
     CommonModule,

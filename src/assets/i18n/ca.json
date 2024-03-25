@@ -40,7 +40,48 @@
         "CREDENTIALCORUSE3": "Credencial COD-83551",
         "SHOWCREDENTIAL": "Mostrar credencial",
         "TITLE_WORK": "Feina",
-        "SKILL": "Habilitat"
+        "SKILL": "Habilitat",
+        "HIRE_ME": "Contracta'm!",
+        "CONTACT_US": "Contacta'ns",
+        "HIRE_ME_INFO": "Amb més de 12 anys d'experiència en el món de la informàtica, em complau presentar-me com un desenvolupador Frontend altament experimentat i apassionat, especialitzat en les últimes versions d'Angular. Al llarg de la meva carrera, he cultivat una sòlida reputació pel meu compromís amb l'excel·lència tècnica, la meva habilitat per adaptar-me ràpidament a nous reptes i el meu enfocament disciplinat en l'entrega de resultats excepcionals. La meva trajectòria inclou la creació d'interfícies d'usuari innovadores i funcionals per a una àmplia gamma d'aplicacions web, des de projectes d'escala empresarial fins a aplicacions mòbils. He liderat equips de desenvolupament, aportant no només les meves habilitats tècniques, sinó també la meva capacitat per inspirar i motivar els meus companys cap al èxit conjunt. Em considero un etern aprenent i estic constantment buscant noves oportunitats per expandir els meus coneixements i habilitats. Estic convençut que la indústria de la tecnologia avança a un ritme vertiginós, i estic compromès a mantenir-me al corrent de les últimes tendències i pràctiques per oferir solucions de vanguardia als nostres clients. El meu enfocament en la responsabilitat, la dedicació i la millora contínua m'ha permès destacar en entorns exigents i dinàmics. Estic desitjós de portar la meva experiència i passió per la tecnologia al seu equip, contribuint al èxit dels seus projectes i al creixement de la seva empresa. Quedo a la seva disposició per discutir com puc ser un actiu valuós per al seu equip i per respondre a qualsevol pregunta que pugui tenir."
+      },
+      "SERVICE": {
+        "MY_SERVICE": "Els meus serveis",
+        "INTERFACE": "Desenvolupament d'interfícies d'usuari (UI)",
+        "DESCRIPTION_INTERFACE": "Crear interfícies d'usuari interactives i atractives utilitzant Angular per millorar l'experiència de l'usuari.",
+        "API_INTEGRATION": "Integració d'API",
+        "API_INTEGRATION_DESCRIPTION": "Connectar l'aplicació frontend amb serveis backend mitjançant la integració d'API per obtenir i enviar dades de manera eficient.",
+        "TECNIC": "Assessorament tècnic i consultoria",
+        "TECNIC_DESCRIPTION": "Proporcionar assessorament tècnic sobre les millors pràctiques de desenvolupament en Angular, arquitectura d'aplicacions, i recomanacions per millorar l'eficiència i l'escalabilitat.",
+        "WEB_APPLICATION": "Desenvolupament d'aplicacions web",
+        "WEB_APPLICATION_DESCRIPTION": "Construir aplicacions web escalables i eficients utilitzant Angular com a framework principal.",
+        "UPDATE": "Manteniment i actualització",
+        "UPDATE_INFORMATION": "Proporcionar serveis de manteniment continu per assegurar que l'aplicació Angular estigui actualitzada, segura i funcionant sense problemes.",
+        "TEST": "Proves i depuració",
+        "TEST_DESCRIPTION": "Realitzar proves exhaustives i depuració per identificar i solucionar errors, assegurant la qualitat del codi i l'estabilitat de l'aplicació."
+      },
+      "PROJECT": {
+        "TITLE": "Projectes Destacats",
+        "DESCRIPTION": "En la meva secció de Projectes Destacats, destaco alguns dels treballs més destacats en els quals he tingut el privilegi de participar. Des de innovadores aplicacions web fins a emocionants projectes de desenvolupament, cada projecte reflecteix el meu compromís amb l'excel·lència i la creativitat en cada pas del procés. Explora la meva selecció per descobrir com he transformat idees en solucions tangibles i exitoses.",
+        "COMMERZBANK_DESCRIPTION": "Es va realitzar manteniment a l'aplicació a nivell de component, es van fer millores i es van resoldre els incidents reportats pel departament de control de qualitat (QA).",
+        "HTG_DESCRIPTION": "En aquest projecte, es van dur a terme processos evolutius requerits pel client, es va mantenir un component de taula desenvolupat des de zero i personalitzat segons les necessitats del client, i es va treballar en formularis reactius. Es van resoldre incidents en producció reportats pel client.",
+        "PORTIC_DESCRIPTION": "Per a aquest projecte, es va redisenyar la part del frontend per adaptar-la a les millors pràctiques en termes d'usabilitat, visibilitat i disseny, la qual cosa va resultar en una aplicació més simple orientada a les transaccions que es realitzen en ella. Es va dur a terme una reenginyeria de les bases de les aplicacions amb la finalitat de desglossar el concepte actual d'arxiu i adaptar així les aplicacions a la realitat que ocorre en la plataforma. Per a aquesta aplicació, es va utilitzar Angular 8, amb les biblioteques NgRx per a la gestió de l'estat, RxJs per a la gestió de dades asíncrones, l'aplicació conté una biblioteca de components específics del client desenvolupada amb ngx-boostrap, l'aplicació també compta amb un mòdul per a múltiples idiomes.",
+        "READ_MORE": "Llegir més",
+        "SHOW_LESS": "Mostrar menys"
+      },
+      "CONTACT": {
+        "TITLE": "Contacte",
+        "FIRST_NAME": "El teu nom",
+        "VALIDATE_FIRST_NAME": "Completa el nom",
+        "LAST_NAME": "El teu cognom",
+        "VALIDATE_LAST_NAME": "Completa el cognom",
+        "EMAIL_ADDRESS": "La teva adreça de correu electrònic",
+        "VALIDATE_EMAIL_ADDRESS": "Completa el correu electrònic",
+        "SUBJECT_MESSAGE": "El tema d'aquest missatge",
+        "VALIDATE_SUBJECT_MESSAGE": "Completa el tema",
+        "ABOUT_US": "El teu missatge",
+        "VALIDATE_ABOUT_US": "Completa el missatge",
+        "SEND_MESSAGE": "Enviar missatge"
       }
   }
 }
