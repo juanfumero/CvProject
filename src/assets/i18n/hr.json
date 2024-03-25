@@ -82,6 +82,10 @@
         "ABOUT_US": "Vaša poruka",
         "VALIDATE_ABOUT_US": "Ispunite poruku",
         "SEND_MESSAGE": "Pošalji poruku"
+      },
+      "FOOTER": {
+        "TITLE_RESERVED": "2024 Angular. Sva prava pridržana.",
+        "DESIGNED": "Dizajnirao"
       }
   }
 }

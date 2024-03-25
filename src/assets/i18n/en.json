@@ -82,6 +82,10 @@
         "ABOUT_US": "Your message",
         "VALIDATE_ABOUT_US": "Complete the message",
         "SEND_MESSAGE": "Send message"
+      },
+      "FOOTER": {
+        "TITLE_RESERVED": "2024 Angular. All rights reserved.",
+        "DESIGNED": "Designed by"
       }
   }
 }

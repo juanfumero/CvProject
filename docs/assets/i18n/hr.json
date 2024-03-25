@@ -38,7 +38,54 @@
         "CREDENTIALCOURSE1": "Vjerodajnica COD-83554",
         "CREDENTIALCORUSE2": "Vjerodajnica COD-83548",
         "CREDENTIALCORUSE3": "Vjerodajnica COD-83551",
-        "SHOWCREDENTIAL": "Prikaži vjerodajnicu"
+        "SHOWCREDENTIAL": "Prikaži vjerodajnicu",
+        "TITLE_WORK": "Posao",
+        "SKILL": "Vještine",
+        "HIRE_ME": "Zaposlite me!",
+        "CONTACT_US": "Kontaktirajte nas",
+        "HIRE_ME_INFO": "S više od 12 godina iskustva u području računarstva, zadovoljstvo mi je predstaviti se kao visoko iskusni i strastveni Frontend programer, specijaliziran za najnovije verzije Angulara. Tijekom svoje karijere, izgradio sam čvrst ugled zbog svoje predanosti tehničkoj izvrsnosti, sposobnosti brzog prilagođavanja novim izazovima i discipliniranog pristupa isporuci izvanrednih rezultata. Moje iskustvo uključuje stvaranje inovativnih i funkcionalnih korisničkih sučelja za razne web aplikacije, od projekata na razini poduzeća do mobilnih aplikacija. Vodio sam razvojne timove, donoseći ne samo svoje tehničke vještine već i sposobnost inspiriranja i motiviranja svojih kolega prema zajedničkom uspjehu. Smatram se doživotnim učenikom i uvijek tražim nove prilike za proširenje svojih znanja i vještina. Uvjeren sam da se tehnološka industrija kreće brzim tempom, i obvezujem se da ću ostati u tijeku s najnovijim trendovima i praksama kako bih pružio napredna rješenja našim klijentima. Moj fokus na odgovornosti, predanosti i kontinuiranom unaprjeđenju omogućio mi je da se istaknem u zahtjevnim i dinamičnim okruženjima. Radujem se što ću svoje iskustvo i strast prema tehnologiji donijeti u vaš tim, doprinoseći uspjehu vaših projekata i rastu vaše tvrtke. Dostupan sam za razgovor o tome kako mogu biti vrijedan doprinos vašem timu i odgovoriti na sva pitanja koja možda imate."
+      },
+      "SERVICE": {
+        "MY_SERVICE": "Moje usluge",
+        "INTERFACE": "Razvoj korisničkog sučelja (UI)",
+        "DESCRIPTION_INTERFACE": "Stvaranje interaktivnih i privlačnih korisničkih sučelja pomoću Angulara kako bi se poboljšalo korisničko iskustvo.",
+        "API_INTEGRATION": "Integracija API-ja",
+        "API_INTEGRATION_DESCRIPTION": "Povežite aplikaciju na frontendu s backend uslugama integrirajući API-je kako biste učinkovito dobivali i slali podatke.",
+        "TECNIC": "Tehničko savjetovanje i savjetovanje",
+        "TECNIC_DESCRIPTION": "Pružiti tehničke savjete o najboljim praksama razvoja u Angularu, arhitekturi aplikacija i preporukama za poboljšanje učinkovitosti i skalabilnosti.",
+        "WEB_APPLICATION": "Razvoj web aplikacija",
+        "WEB_APPLICATION_DESCRIPTION": "Izgradite skalabilne i učinkovite web aplikacije koristeći Angular kao glavni okvir.",
+        "UPDATE": "Održavanje i ažuriranja",
+        "UPDATE_INFORMATION": "Pružiti kontinuirane usluge održavanja kako bi se osiguralo da je Angular aplikacija ažurirana, sigurna i glatko radi.",
+        "TEST": "Testiranje i otklanjanje pogrešaka",
+        "TEST_DESCRIPTION": "Izvodite sveobuhvatno testiranje i otklanjanje pogrešaka kako biste identificirali i ispravili greške, osiguravajući kvalitetu koda i stabilnost aplikacije."
+      },
+      "PROJECT": {
+        "TITLE": "Istaknuti Projekti",
+        "DESCRIPTION": "U mojoj sekciji Istaknuti Projekti ističem neke od najistaknutijih radova u kojima sam imao privilegiju sudjelovati. Od inovativnih web aplikacija do uzbudljivih razvojnih projekata, svaki projekt odražava moju predanost izvrsnosti i kreativnosti u svakom koraku procesa. Istaknite moj izbor kako biste otkrili kako sam pretvorio ideje u konkretna i uspješna rješenja.",
+        "COMMERZBANK_DESCRIPTION": "Održavanje je provedeno na aplikaciji na razini komponente, unapređenja su napravljena, i incidenti prijavljeni od strane odjela za kontrolu kvalitete (QA) su riješeni.",
+        "HTG_DESCRIPTION": "U ovom projektu su provedeni evolucijski procesi koje je zahtijevao klijent, održavan je komponentni razvoj tablice od nule prilagođen potrebama klijenta, i radilo se na reaktivnim obrascima. Rješavanje incidenata u proizvodnji prijavljenih od strane klijenta.",
+        "PORTIC_DESCRIPTION": "Za ovaj projekt, prednji dio je redizajniran kako bi se prilagodio najboljim praksama u pogledu upotrebljivosti, vidljivosti i dizajna, rezultirajući jednostavnijom aplikacijom orijentiranom prema transakcijama koje se u njoj obavljaju. Provedena je režnija baza aplikacija s ciljem rastavljanja trenutnog koncepta datoteke i prilagodbe aplikacija stvarnosti koja se događa na platformi. Za ovu aplikaciju korišten je Angular 8, s NgRx knjižnicama za upravljanje stanjem, RxJs za asinkrono upravljanje podacima, aplikacija sadrži knjižnicu komponenata specifičnih za klijenta razvijenu s ngx-boostrap, aplikacija također ima modul za više jezika.",
+        "READ_MORE": "Pročitaj više",
+        "SHOW_LESS": "Prikaži manje"
+      },
+      "CONTACT": {
+        "TITLE": "Kontakt",
+        "FIRST_NAME": "Vaše ime",
+        "VALIDATE_FIRST_NAME": "Ispunite ime",
+        "LAST_NAME": "Vaše prezime",
+        "VALIDATE_LAST_NAME": "Ispunite prezime",
+        "EMAIL_ADDRESS": "Vaša e-mail adresa",
+        "VALIDATE_EMAIL_ADDRESS": "Ispunite e-mail",
+        "SUBJECT_MESSAGE": "Predmet ove poruke",
+        "VALIDATE_SUBJECT_MESSAGE": "Ispunite predmet",
+        "ABOUT_US": "Vaša poruka",
+        "VALIDATE_ABOUT_US": "Ispunite poruku",
+        "SEND_MESSAGE": "Pošalji poruku"
+      },
+      "FOOTER": {
+        "TITLE_RESERVED": "2024 Angular. Sva prava pridržana.",
+        "DESIGNED": "Dizajnirao"
       }
   }
 }

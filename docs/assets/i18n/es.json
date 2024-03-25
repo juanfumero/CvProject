@@ -38,7 +38,54 @@
         "CREDENTIALCOURSE1": "Credencial COD-83554",
         "CREDENTIALCORUSE2": "Credencial COD-83548",
         "CREDENTIALCORUSE3": "Credencial COD-83551",
-        "SHOWCREDENTIAL": "Mostrar credencial"
+        "SHOWCREDENTIAL": "Mostrar credencial",
+        "TITLE_WORK": "Trabajo",
+        "SKILL": "Habilidades",
+        "HIRE_ME": "Contrátame!",
+        "CONTACT_US": "Contáctenos",
+        "HIRE_ME_INFO": "Con más de 12 años de experiencia en el mundo de la informática, me complace presentarme como un desarrollador Frontend altamente experimentado y apasionado, especializado en las últimas versiones de Angular. A lo largo de mi carrera, he cultivado una sólida reputación por mi compromiso con la excelencia técnica, mi habilidad para adaptarme rápidamente a nuevos desafíos y mi enfoque disciplinado en la entrega de resultados excepcionales. Mi trayectoria incluye la creación de interfaces de usuario innovadoras y funcionales para una amplia gama de aplicaciones web, desde proyectos de escala empresarial hasta aplicaciones móviles. He liderado equipos de desarrollo, aportando no solo mis habilidades técnicas, sino también mi capacidad para inspirar y motivar a mis colegas hacia el éxito conjunto. Me considero un eterno aprendiz y estoy constantemente buscando nuevas oportunidades para expandir mis conocimientos y habilidades. Estoy convencido de que la industria de la tecnología avanza a un ritmo vertiginoso, y estoy comprometido a mantenerme al tanto de las últimas tendencias y prácticas para ofrecer soluciones de vanguardia a nuestros clientes. Mi enfoque en la responsabilidad, la dedicación y la mejora continua me ha permitido sobresalir en entornos exigentes y dinámicos. Estoy ansioso por llevar mi experiencia y pasión por la tecnología a su equipo, contribuyendo al éxito de sus proyectos y al crecimiento de su empresa. Quedo a su disposición para discutir cómo puedo ser un activo valioso para su equipo y para responder cualquier pregunta que pueda tener."
+      },
+      "SERVICE": {
+        "MY_SERVICE": "Mis servicios",
+        "INTERFACE": "Desarrollo de interfaces de usuario (UI)",
+        "DESCRIPTION_INTERFACE": "Crear interfaces de usuario interactivas y atractivas utilizando Angular para mejorar la experiencia del usuario.",
+        "API_INTEGRATION": "Integración de API",
+        "API_INTEGRATION_DESCRIPTION": "Conectar la aplicación frontend con servicios backend mediante la integración de API para obtener y enviar datos de forma eficiente.",
+        "TECNIC": "Consultoría y asesoramiento técnico",
+        "TECNIC_DESCRIPTION": "Brindar asesoramiento técnico sobre las mejores prácticas de desarrollo en Angular, arquitectura de aplicaciones, y recomendaciones para mejorar la eficiencia y la escalabilidad.",
+        "WEB_APPLICATION": "Desarrollo de aplicaciones web",
+        "WEB_APPLICATION_DESCRIPTION": "Construir aplicaciones web escalables y eficientes utilizando Angular como framework principal.",
+        "UPDATE": "Mantenimiento y actualización",
+        "UPDATE_INFORMATION": "Proporcionar servicios de mantenimiento continuo para asegurar que la aplicación Angular esté actualizada, segura y funcione sin problemas.",
+        "TEST": "Pruebas y depuración",
+        "TEST_DESCRIPTION": "Realizar pruebas exhaustivas y depuración para identificar y solucionar errores, asegurando la calidad del código y la estabilidad de la aplicación."
+      },
+      "PROJECT": {
+        "TITLE": "Proyectos Destacados",
+        "DESCRIPTION": "En mi sección de Proyectos Destacados, destaco algunos de los trabajos más sobresalientes en los que he tenido el privilegio de participar. Desde innovadoras aplicaciones web hasta emocionantes proyectos de desarrollo, cada proyecto refleja mi compromiso con la excelencia y la creatividad en cada paso del proceso. Explora mi selección para descubrir cómo he transformado ideas en soluciones tangibles y exitosas.",
+        "COMMERZBANK_DESCRIPTION": "Se realizó mantenimiento en la aplicación a nivel de componente, se realizaron mejoras y se resolvieron los incidentes reportados por el departamento de control de calidad (QA).",
+        "HTG_DESCRIPTION": "En este proyecto, se llevaron a cabo procesos evolutivos requeridos por el cliente, se mantuvo un componente de tabla desarrollado desde cero y personalizado según las necesidades del cliente, y se trabajó en formularios reactivos. Se resolvieron incidentes en producción reportados por el cliente.",
+        "PORTIC_DESCRIPTION": "Para este proyecto, se rediseñó la parte del frontend para adaptarla a las mejores prácticas en términos de usabilidad, visibilidad y diseño, lo que resultó en una aplicación más simple orientada a las transacciones que se realizan en ella. Se llevó a cabo una reingeniería de las bases de las aplicaciones con el propósito de desglosar el concepto actual de archivo y así adaptar las aplicaciones a la realidad que ocurre en la plataforma. Para esta aplicación, se utilizó Angular 8, con las bibliotecas NgRx para la gestión del estado, RxJs para la gestión de datos asincrónicos, la aplicación contiene una biblioteca de componentes específicos del cliente desarrollada con ngx-boostrap, la aplicación también cuenta con un módulo para múltiples idiomas.",
+        "READ_MORE": "Leer más",
+        "SHOW_LESS": "Mostrar menos"
+      },
+      "CONTACT": {
+        "TITLE": "Contacto",
+        "FIRST_NAME": "Tu nombre",
+        "VALIDATE_FIRST_NAME": "Completa el nombre",
+        "LAST_NAME": "Tu apellido",
+        "VALIDATE_LAST_NAME": "Completa el apellido",
+        "EMAIL_ADDRESS": "Tu dirección de correo electronico",
+        "VALIDATE_EMAIL_ADDRESS": "Completa el email",
+        "SUBJECT_MESSAGE": "El asunto de este mensaje",
+        "VALIDATE_SUBJECT_MESSAGE": "Completa el asunto",
+        "ABOUT_US": "Tu mensaje",
+        "VALIDATE_ABOUT_US": "Completa el mensaje",
+        "SEND_MESSAGE": "Enviar mensaje"
+      },
+      "FOOTER": {
+        "TITLE_RESERVED": "2024 Angular. Todos los derechos reservados.",
+        "DESIGNED": "Diseñado por"
       }
   }
 }

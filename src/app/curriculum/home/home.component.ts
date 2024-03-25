@@ -15,9 +15,6 @@ export class HomeComponent implements OnInit {
   experienceJob: Experience = { title: '' , experienceList: []};
   experienceEducation: Experience = { title: '' , experienceList: []};
   experienceCourse: Experience = { title: '' , experienceList: []};
-  showAllfirst: boolean = false;
-  showAllSecond: boolean = false;
-  showAllThird: boolean = false;
   isContactUs: boolean = false;
   constructor(private translate: TranslateService) { }
 
