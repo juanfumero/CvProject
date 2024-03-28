@@ -18,6 +18,7 @@ import { ProviderComponent } from './home/provider/provider.component';
 import { ContactComponent } from './home/contact/contact.component';
 import { WorkComponent } from './home/work/work.component';
 import { ProjectComponent } from './home/project/project.component';
+import { UserService } from '../service/user.service';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { ProjectComponent } from './home/project/project.component';
       }),
   ],
   providers: [
+    UserService
     // ShipsService,
     // { provide: LOCALE_ID, useValue: "es" }
   ],

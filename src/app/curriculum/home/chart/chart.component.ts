@@ -16,7 +16,6 @@ export class ChartComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log('imprimo mi percentage', this.percentage);
     this.updateOffset();
   }
 

@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { Experience } from '../../model/experience.model';
+import { UserService } from '../../service/user.service';
+import { UserRespond } from '../../model/user.model';
 
 @Component({
   selector: 'app-home',
@@ -16,7 +18,18 @@ export class HomeComponent implements OnInit {
   experienceEducation: Experience = { title: '' , experienceList: []};
   experienceCourse: Experience = { title: '' , experienceList: []};
   isContactUs: boolean = false;
-  constructor(private translate: TranslateService) { }
+  userInfo: UserRespond = {
+    result: {
+      id: "",
+      idusername: "",
+      username: "",
+      phone: "",
+      email: "",
+      address: ""
+    }
+  };
+
+  constructor(private translate: TranslateService, private userService: UserService) { }
 
   ngOnInit() {
     this.idiomas = ['es', 'en','ca', 'hr'];
@@ -26,6 +39,18 @@ export class HomeComponent implements OnInit {
     this.addInfoExeperienceJob();
     this.addInfoExperienceEducation();
     this.addInfoExperienceCourse();
+    this.getInfoUser();
+  }
+
+  getInfoUser() {
+    this.userService.getUsers().subscribe(
+      (response) => {
+        this.userInfo = response;
+      },
+      (error) => {
+        console.error('Error fetching users: ', error);
+      }
+    );
   }
 
   contactInfo() {

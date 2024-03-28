@@ -27,7 +27,6 @@ export class ContactComponent implements OnInit {
   }
 
   onSubmit() {    
-    console.log(this.formGroup.value);
     if (this.formGroup.valid) {
       console.log(this.formGroup.value);
     }
