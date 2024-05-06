@@ -22,10 +22,10 @@ export class HomeComponent implements OnInit {
     result: {
       id: "",
       idusername: "",
-      username: "",
-      phone: "",
-      email: "",
-      address: ""
+      username: "Juan Fumero",
+      phone: "(+34) 634xxxxxx",
+      email: "prueba@xxxx.com",
+      address: "Barcelona"
     }
   };
 
