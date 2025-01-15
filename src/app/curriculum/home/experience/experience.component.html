@@ -4,20 +4,27 @@
           <h3>{{ listExperience.title | translate}}</h3>
         </div>
     </li>
-    <li class="animate-box timeline-inverted"  *ngFor="let exp of listExperience.experienceList; let i = index" [ngClass]="{'timeline-inverted': i % 2 !== 0, 'timeline-unverted': i % 2 === 0}">
-        <div class="timeline-badge"><i [ngClass]="listExperience.icon"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3 class="timeline-title">{{ exp.rol | translate}}</h3>
-                <span class="company"><span style="color: black;"><strong>{{ exp.company }}</strong></span>{{ exp.yearsWorked }}</span>
-              </div>
-              <div class="timeline-body">
-                <p>{{ exp.description | translate}}</p>
-              </div>
-              <br>       
-              <div *ngIf="exp.isCredential" class="form-group" (click)="showInfo(exp?.credentialInfo)">
-                <input type="submit" value="{{'HOMNE.INFORMATION.SHOWCREDENTIAL' | translate}}" class="btn btn-primary">
-              </div>
-        </div>
-    </li>    
+    @for ( exp of listExperience.experienceList; track exp; let  i = $index) {
+       <li class="animate-box timeline-inverted"  [ngClass]="{'timeline-inverted': i % 2 !== 0, 'timeline-unverted': i % 2 === 0}">
+           <div class="timeline-badge"><i [ngClass]="listExperience.icon"></i></div>
+               <div class="timeline-panel">
+                 <div class="timeline-heading">
+                   <h3 class="timeline-title">{{ exp.rol | translate}}</h3>
+                   <span class="company"><span style="color: black;"><strong>{{ exp.company }}</strong></span>{{ exp.yearsWorked }}</span>
+                 </div>
+                 <div class="timeline-body">
+                   <p>{{ exp.description | translate}}</p>
+                 </div>
+                 <br>
+
+                 @if (exp.isCredential) {
+                   <div class="form-group" (click)="showInfo(exp?.credentialInfo)">
+                     <input type="submit" value="{{'HOMNE.INFORMATION.SHOWCREDENTIAL' | translate}}" class="btn btn-primary">
+                   </div>
+                 }
+               
+           </div>
+       </li>    
+    }
+
 </ul>   

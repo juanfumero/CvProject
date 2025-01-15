@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, signal } from '@angular/core';
 
 @Component({
   selector: 'app-project',
@@ -8,9 +8,9 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ProjectComponent implements OnInit {
 
-  showAllfirst: boolean = false;
-  showAllSecond: boolean = false;
-  showAllThird: boolean = false;
+  showAllfirst = signal(false);
+  showAllSecond = signal(false);
+  showAllThird = signal(false);
   
   constructor() { }
 
@@ -18,14 +18,14 @@ export class ProjectComponent implements OnInit {
   }
 
   toggleShowAll(position: string) {
-    if ( position === 'first') {
-      this.showAllfirst = !this.showAllfirst;
+    if ( position === 'first') {      
+      this.showAllfirst.update( value => !value);
     }
     if ( position === 'second') {
-      this.showAllSecond = !this.showAllSecond;
+      this.showAllSecond.update( value => !value);
     }
     if ( position === 'third') {
-      this.showAllThird = !this.showAllThird;
+      this.showAllThird.update( value => !value);
     }
   }
 

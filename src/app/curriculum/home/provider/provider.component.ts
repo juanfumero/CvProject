@@ -14,6 +14,4 @@ export class ProviderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
-
 }

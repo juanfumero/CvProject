@@ -6,14 +6,16 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 text-center col-padding animate-box" *ngFor="let work of workExperience; let i = index" >
-          <a href="#" class="work" style="background-image: url(assets/images/{{work.image}});">
-            <div class="desc">
-              <h3>{{work.company}}</h3>
-              <span>{{work.project}}</span>
-            </div>
-          </a>
-        </div>
+        @for ( work of workExperience; track work )  {
+          <div class="col-md-3 text-center col-padding animate-box" >
+            <a href="#" class="work" style="background-image: url(assets/images/{{work.image}});">
+              <div class="desc">
+                <h3>{{work.company}}</h3>
+                <span>{{work.project}}</span>
+              </div>
+            </a>
+          </div>
+        } 
       </div>
     </div>
   </div>

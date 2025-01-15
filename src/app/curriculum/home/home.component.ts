@@ -39,16 +39,12 @@ export class HomeComponent implements OnInit {
     this.addInfoExeperienceJob();
     this.addInfoExperienceEducation();
     this.addInfoExperienceCourse();
-    this.getInfoUser();
   }
 
   getInfoUser() {
-    this.userService.getUsers().subscribe(
+    this.userService.getUsers(1).subscribe(
       (response) => {
         this.userInfo = response;
-      },
-      (error) => {
-        console.error('Error fetching users: ', error);
       }
     );
   }
@@ -68,8 +64,14 @@ export class HomeComponent implements OnInit {
       experienceList: [
         {
           rol: 'HOMNE.INFORMATION.SENIOR',
+          company: 'Between Technology',
+          yearsWorked: ' - 2024 - current',
+          description: 'HOMNE.INFORMATION.BETWEEN'
+        },
+        {
+          rol: 'HOMNE.INFORMATION.SENIOR',
           company: 'Babel',
-          yearsWorked: ' - 2022 - Current',
+          yearsWorked: ' - 2022 - 2024',
           description: 'HOMNE.INFORMATION.BABEL'
         },
         {
@@ -172,13 +174,13 @@ export class HomeComponent implements OnInit {
           rol: 'HOMNE.INFORMATION.COURSETITLE2',
           company: 'Wikot',
           yearsWorked: '- 2016',
-          description: 'HOMNE.INFORMATION.CREDENTIALCOURSE2'
+          description: 'HOMNE.INFORMATION.CREDENTIALCORUSE2'
         },
         {
           rol: 'HOMNE.INFORMATION.COURSETITLE3',
           company: 'Wikot',
           yearsWorked: '- 2016',
-          description: 'HOMNE.INFORMATION.CREDENTIALCOURSE3'
+          description: 'HOMNE.INFORMATION.CREDENTIALCORUSE3'
         }
       ]
     } 

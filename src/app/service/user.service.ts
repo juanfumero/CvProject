@@ -15,8 +15,8 @@ export class UserService {
     this.baseUrl = environment.base_url;
   }
 
-  getUsers(): Observable<UserRespond> {
-    return this.http.get<UserRespond>( this.baseUrl + '/users/1234');
+  getUsers(value: number): Observable<UserRespond> {
+    return this.http.get<UserRespond>( this.baseUrl + `/users/${value}`);
   }
 
 }

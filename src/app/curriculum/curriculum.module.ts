@@ -12,7 +12,6 @@ import { ChartComponent } from './home/chart/chart.component';
 import { ProgressComponent } from './home/progress/progress.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { getBaseUrl } from '../shared/utils';
 import { ExperienceComponent } from './home/experience/experience.component';
 import { ProviderComponent } from './home/provider/provider.component';
 import { ContactComponent } from './home/contact/contact.component';
@@ -42,10 +41,7 @@ import { UserService } from '../service/user.service';
                 deps: [HttpClient]
             }
         })], providers: [
-        UserService
-        // ShipsService,
-        // { provide: LOCALE_ID, useValue: "es" }
-        ,
+        UserService,
         provideHttpClient(withInterceptorsFromDi())
     ] })
 
