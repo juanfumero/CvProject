@@ -1,5 +1,5 @@
 
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es';
 registerLocaleData(localeEs, 'es');
@@ -20,38 +20,34 @@ import { WorkComponent } from './home/work/work.component';
 import { ProjectComponent } from './home/project/project.component';
 import { UserService } from '../service/user.service';
 
-@NgModule({
-  declarations: [
-  HomeComponent,
-  ChartComponent, 
-  ProgressComponent,
-  ExperienceComponent,
-  ProviderComponent,
-  ContactComponent,
-  WorkComponent,
-  ProjectComponent],
-  imports: [
-    curriculumRoutingModule,
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    HttpClientModule,
-    ReactiveFormsModule,
-    TranslateModule.forRoot({
-        loader: {
-          provide: TranslateLoader,
-          useFactory: HttpLoaderFactory,
-          deps: [HttpClient]
-        }  
-      }),
-  ],
-  providers: [
-    UserService
-    // ShipsService,
-    // { provide: LOCALE_ID, useValue: "es" }
-  ],
-  bootstrap: [HomeComponent]
-})
+@NgModule({ declarations: [
+        HomeComponent,
+        ChartComponent,
+        ProgressComponent,
+        ExperienceComponent,
+        ProviderComponent,
+        ContactComponent,
+        WorkComponent,
+        ProjectComponent
+    ],
+    bootstrap: [HomeComponent], imports: [curriculumRoutingModule,
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule,
+        ReactiveFormsModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient]
+            }
+        })], providers: [
+        UserService
+        // ShipsService,
+        // { provide: LOCALE_ID, useValue: "es" }
+        ,
+        provideHttpClient(withInterceptorsFromDi())
+    ] })
 
 export class CurriculumModule { }
 
