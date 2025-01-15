@@ -161,18 +161,21 @@
       </div>
     </div>
   </div>
-
-  <div *ngIf="isContactUs" id="fh5co-consult">
-    <div class="video fh5co-video" style="background-image: url(assets/images/cover_bg_1.jpg);">
-      <div class="overlay"></div>
+  
+  @if ( isContactUs() ) {
+    <div id="fh5co-consult">
+      <div class="video fh5co-video" style="background-image: url(assets/images/cover_bg_1.jpg);">
+        <div class="overlay"></div>
+      </div>
+      <div class="choose animate-box">
+        <h2>{{"HOMNE.CONTACT.TITLE" | translate}}</h2>
+        <app-contact></app-contact>
+      </div>
     </div>
-    <div class="choose animate-box">
-      <h2>{{"HOMNE.CONTACT.TITLE" | translate}}</h2>
-      <app-contact></app-contact>
-    </div>
-  </div>
+  } @else {    
+    <div  id="map"></div>
+  }
 
-  <div *ngIf="!isContactUs" id="map"></div>
 </div>
 
 <div id="fh5co-footer">

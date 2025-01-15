@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { Experience } from '../../model/experience.model';
@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   experienceJob: Experience = { title: '' , experienceList: []};
   experienceEducation: Experience = { title: '' , experienceList: []};
   experienceCourse: Experience = { title: '' , experienceList: []};
-  isContactUs: boolean = false;
+  isContactUs = signal(false);
   userInfo: UserRespond = {
     result: {
       id: "",
@@ -54,7 +54,7 @@ export class HomeComponent implements OnInit {
   }
 
   contactInfo() {
-    this.isContactUs = true;
+    this.isContactUs.update( value => !value);
     const element = document.getElementById('map');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
