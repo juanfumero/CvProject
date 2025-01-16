@@ -24,6 +24,7 @@
         "OUTSOURCE": "Razvoj sustava za upravljanje ljudskim resursima, razvoj modula za odabir i zapošljavanje osoblja, automatizacija testova pravopisa, boje i prihoda te razvoj modula ugovora, godišnjeg odmora, primjene dokaza o radu, unaprijednosti koristi, bilance socijalnih beneficija i ocjene učinkovitosti, programirano u C# jeziku, asp.net.",
         "MICORP": "Migracija s Oracle baze podataka na Postgres hidrokarbonskog marketinškog sustava (SCH). Razvoj ETL i validacijskog modula migriranih podataka u PHP jeziku.",
         "COMPUTERINFO": "Računalni inženjer",
+        "UCAB": "Katoličko sveučilište Andres Bello",
         "COMPUTERTITULO": "Diploma kao inženjer računarstva",
         "COURSE": "Dovoljenja i certifikati",
         "QUALIFICATION": "Kvalifikacija kao bakalar u znanosti",
@@ -45,6 +46,7 @@
         "SKILL": "Vještine",
         "HIRE_ME": "Zaposlite me!",
         "CONTACT_US": "Kontaktirajte nas",
+        "CURRENT": "Trenutni",
         "HIRE_ME_INFO": "S više od 12 godina iskustva u području računarstva, zadovoljstvo mi je predstaviti se kao visoko iskusni i strastveni Frontend programer, specijaliziran za najnovije verzije Angulara. Tijekom svoje karijere, izgradio sam čvrst ugled zbog svoje predanosti tehničkoj izvrsnosti, sposobnosti brzog prilagođavanja novim izazovima i discipliniranog pristupa isporuci izvanrednih rezultata. Moje iskustvo uključuje stvaranje inovativnih i funkcionalnih korisničkih sučelja za razne web aplikacije, od projekata na razini poduzeća do mobilnih aplikacija. Vodio sam razvojne timove, donoseći ne samo svoje tehničke vještine već i sposobnost inspiriranja i motiviranja svojih kolega prema zajedničkom uspjehu. Smatram se doživotnim učenikom i uvijek tražim nove prilike za proširenje svojih znanja i vještina. Uvjeren sam da se tehnološka industrija kreće brzim tempom, i obvezujem se da ću ostati u tijeku s najnovijim trendovima i praksama kako bih pružio napredna rješenja našim klijentima. Moj fokus na odgovornosti, predanosti i kontinuiranom unaprjeđenju omogućio mi je da se istaknem u zahtjevnim i dinamičnim okruženjima. Radujem se što ću svoje iskustvo i strast prema tehnologiji donijeti u vaš tim, doprinoseći uspjehu vaših projekata i rastu vaše tvrtke. Dostupan sam za razgovor o tome kako mogu biti vrijedan doprinos vašem timu i odgovoriti na sva pitanja koja možda imate."
       },
       "SERVICE": {

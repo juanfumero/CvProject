@@ -27,17 +27,6 @@
 	};
 
 
-
-	var fullHeight = function() {
-
-		if ( !isMobile.any() ) {
-			$('.js-fullheight').css('height', $(window).height());
-			$(window).resize(function(){
-				$('.js-fullheight').css('height', $(window).height());
-			});
-		}
-	};
-
 	// Parallax
 	var parallax = function() {
 		$(window).stellar();
@@ -143,9 +132,7 @@
 		contentWayPoint();
 		goToTop();
 		loaderPage();
-		fullHeight();
 		parallax();
-		// pieChart();
 		skillsWayPoint();
 	});
 

@@ -24,6 +24,7 @@
         "OUTSOURCE": "Development of the Human Resources Management System, development of the selection and recruitment staff module, automating the spelling, color and reven tests and developing the modules of contract, vacation, application of Proof of Work, Advance of Benefits, balances of social benefits and performance evaluation, programmed in C# language, asp.net.",
         "MICORP": "Migration from Oracle database to Postgres of the hydrocarbon marketing system (SCH). Development of the ETL and validation module of the migrated data in PHP language.",
         "COMPUTERINFO": "Computer Engineer",
+        "UCAB": "Andres Bello Catholic University",
         "COMPUTERTITULO": "Degree in Computer Engineering",
         "COURSE": "Licenses & certifications",
         "QUALIFICATION": "Qualification as Bachelor in Sciences",
@@ -45,6 +46,7 @@
         "SKILL": "Skills",
         "HIRE_ME": "Hire Me!",
         "CONTACT_US": "Contact Us",
+        "CURRENT": "Current",
         "HIRE_ME_INFO": "With over 12 years of experience in the field of computer science, I am pleased to introduce myself as a highly experienced and passionate Frontend developer, specialized in the latest versions of Angular. Throughout my career, I have cultivated a solid reputation for my commitment to technical excellence, my ability to quickly adapt to new challenges, and my disciplined approach to delivering exceptional results. My journey includes creating innovative and functional user interfaces for a wide range of web applications, from enterprise-scale projects to mobile applications. I have led development teams, bringing not only my technical skills but also my ability to inspire and motivate my colleagues towards collective success. I consider myself a lifelong learner and am constantly seeking new opportunities to expand my knowledge and skills. I am convinced that the technology industry is advancing at a rapid pace, and I am committed to staying abreast of the latest trends and practices to provide cutting-edge solutions to our clients. My focus on responsibility, dedication, and continuous improvement has allowed me to excel in demanding and dynamic environments. I am eager to bring my experience and passion for technology to your team, contributing to the success of your projects and the growth of your company. I am available to discuss how I can be a valuable asset to your team and to answer any questions you may have."
       },
       "SERVICE": {

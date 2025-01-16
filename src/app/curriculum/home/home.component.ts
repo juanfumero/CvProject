@@ -4,6 +4,8 @@ import { TranslateService } from '@ngx-translate/core';
 import { Experience } from '../../model/experience.model';
 import { UserService } from '../../service/user.service';
 import { UserRespond } from '../../model/user.model';
+import { Company } from '../../shared/enum/company.enum';
+import { YearCompany } from '../../shared/enum/year-company.enum';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +20,7 @@ export class HomeComponent implements OnInit {
   experienceEducation: Experience = { title: '' , experienceList: []};
   experienceCourse: Experience = { title: '' , experienceList: []};
   isContactUs = signal(false);
+  currentText = '';
   userInfo: UserRespond = {
     result: {
       id: "",
@@ -36,10 +39,18 @@ export class HomeComponent implements OnInit {
     this.translate.addLangs(this.idiomas);
     this.translate.setDefaultLang('en');
     this.translate.use('en');
-    this.addInfoExeperienceJob();
+    this.addCurrentJobInfoGeneral();
     this.addInfoExperienceEducation();
     this.addInfoExperienceCourse();
   }
+
+  addCurrentJobInfoGeneral() {
+    this.translate.get('HOMNE.INFORMATION.CURRENT').subscribe((translated: string) => {
+      this.currentText = translated;
+      this.addInfoExeperienceJob();
+    }); 
+  }
+  
 
   getInfoUser() {
     this.userService.getUsers(1).subscribe(
@@ -64,50 +75,50 @@ export class HomeComponent implements OnInit {
       experienceList: [
         {
           rol: 'HOMNE.INFORMATION.SENIOR',
-          company: 'Between Technology',
-          yearsWorked: ' - 2024 - current',
+          company: this.getCompany.Between,
+          yearsWorked: `- ${this.getYearCompany.Between} - ${this.currentText}`,
           description: 'HOMNE.INFORMATION.BETWEEN'
         },
         {
           rol: 'HOMNE.INFORMATION.SENIOR',
-          company: 'Babel',
-          yearsWorked: ' - 2022 - 2024',
+          company:  this.getCompany.Babel,
+          yearsWorked: `- ${this.getYearCompany.Babel}`,
           description: 'HOMNE.INFORMATION.BABEL'
         },
         {
           rol: 'HOMNE.INFORMATION.SENIOR',
-          company: 'Alten',
-          yearsWorked: ' - 2017 - 2022',
+          company: this.getCompany.Alten,
+          yearsWorked: `- ${this.getYearCompany.Alten}`,
           description: 'HOMNE.INFORMATION.ALTEN'
         },
         {
           rol: 'HOMNE.INFORMATION.INFO',
-          company: 'Wikot',
-          yearsWorked: ' - 2016 - 2017',
+          company:  this.getCompany.Wikot,
+          yearsWorked: `- ${this.getYearCompany.Wikot}`,
           description: 'HOMNE.INFORMATION.WIKOT'
         },
         {
           rol: 'HOMNE.INFORMATION.INFO',
-          company: 'Avanade',
-          yearsWorked: ' - 2015 - 2016',
+          company:  this.getCompany.Avanade,
+          yearsWorked: `- ${this.getYearCompany.Avanade}`,
           description: 'HOMNE.INFORMATION.AVANADE'
         },
         {
           rol: 'HOMNE.INFORMATION.INFO',
-          company: 'Synergy-GB',
-          yearsWorked: ' - 2013 - 2015',
+          company: this.getCompany.Synergy,
+          yearsWorked: `- ${this.getYearCompany.Synergy}`,
           description: 'HOMNE.INFORMATION.SYNERGY'
         },
         {
           rol: 'HOMNE.INFORMATION.INFO',
-          company: 'Outsource Software, C.A.',
-          yearsWorked: ' - 2013',
+          company: this.getCompany.Outsource,
+          yearsWorked: `- ${this.getYearCompany.Outsource}`,
           description: 'HOMNE.INFORMATION.OUTSOURCE'
         },
         {
           rol: 'HOMNE.INFORMATION.JUNIOR',
-          company: 'Consultores micorp',
-          yearsWorked: ' - 2012',
+          company: this.getCompany.ConsultoresMicor,
+          yearsWorked: `- ${this.getYearCompany.ConsultoresMicor}`,
           description: 'HOMNE.INFORMATION.MICORP'
         }
       ]
@@ -121,13 +132,13 @@ export class HomeComponent implements OnInit {
       experienceList: [
         {
           rol: 'HOMNE.INFORMATION.COMPUTERINFO',
-          company: 'Universidad Católica Andrés Bello',
+          company: 'HOMNE.INFORMATION.UCAB',
           yearsWorked: ' - 2005 - 2012',
           description: 'HOMNE.INFORMATION.COMPUTERTITULO'
         },
         {
           rol: 'HOMNE.INFORMATION.STUDYTITLE',
-          company: 'Alten',
+          company: this.getCompany.Alten,
           yearsWorked: ' - 2017 - 2022',
           description: 'HOMNE.INFORMATION.QUALIFICATION'
         }
@@ -142,7 +153,7 @@ export class HomeComponent implements OnInit {
       experienceList: [
         {
           rol: 'HOMNE.INFORMATION.COURSETITLE4',
-          company: 'Udemy',
+          company: this.getCompany.Udemy,
           yearsWorked: '- 2023',
           description: 'HOMNE.INFORMATION.CREDENTIALREACT',
           isCredential: true,
@@ -150,7 +161,7 @@ export class HomeComponent implements OnInit {
         },
         {
           rol: 'HOMNE.INFORMATION.COURSETITLE5',
-          company: 'Udemy',
+          company: this.getCompany.Udemy,
           yearsWorked: '- 2022',
           description: 'HOMNE.INFORMATION.CREDENTIALREACTJS',
           isCredential: true,
@@ -158,7 +169,7 @@ export class HomeComponent implements OnInit {
         },
         {
           rol: 'HOMNE.INFORMATION.COURSETITLE6',
-          company: 'Udemy',
+          company: this.getCompany.Udemy,
           yearsWorked: '- 2020',
           description: 'HOMNE.INFORMATION.CREDENTIALIONIC3',
           isCredential: true,
@@ -166,19 +177,19 @@ export class HomeComponent implements OnInit {
         },
         {
           rol: 'HOMNE.INFORMATION.COURSETITLE1',
-          company: 'Wikot',
+          company: this.getCompany.Wikot,
           yearsWorked: '- 2016',
           description: 'HOMNE.INFORMATION.CREDENTIALCOURSE1'
         },
         {
           rol: 'HOMNE.INFORMATION.COURSETITLE2',
-          company: 'Wikot',
+          company: this.getCompany.Wikot,
           yearsWorked: '- 2016',
           description: 'HOMNE.INFORMATION.CREDENTIALCORUSE2'
         },
         {
           rol: 'HOMNE.INFORMATION.COURSETITLE3',
-          company: 'Wikot',
+          company: this.getCompany.Wikot,
           yearsWorked: '- 2016',
           description: 'HOMNE.INFORMATION.CREDENTIALCORUSE3'
         }
@@ -186,9 +197,18 @@ export class HomeComponent implements OnInit {
     } 
   }
 
+  public get getCompany(): typeof Company {
+    return Company;
+  }
+
+  public get getYearCompany(): typeof YearCompany {
+    return YearCompany;
+  }
+
   switchLanguage(language: string) {
     this.selectLangue = language;
-    this.translate.use(language);
+    this.translate.use(language);        
+    this.addCurrentJobInfoGeneral();
   }
 
 }

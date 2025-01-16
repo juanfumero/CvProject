@@ -11,14 +11,14 @@
           <div class="fh5co-blog animate-box">
             <a href="#" class="blog-bg border-panel-info" style="background-image: url(assets/images/commerzbank.jpg);"></a>
             <div class="blog-text">
-              <span class="posted_on">2022</span>
-              <h3><a href="#">Commerzbank</a></h3>
+              <span class="posted_on">{{getYearProject.CommerzBank}}</span>
+              <h3><a href="#">{{getCompany.CommerzBank}}</a></h3>
               <p [ngClass]="{'show-all': showAllfirst(), 'content-text': !showAllfirst()}">{{"HOMNE.PROJECT.COMMERZBANK_DESCRIPTION" | translate}}</p>
               <ul class="stuff">
                 @if ( !showAllfirst() ) {
-                  <li><div (click)="toggleShowAll('first')">{{"HOMNE.PROJECT.READ_MORE" | translate}}<i class="icon-arrow-right22"></i></div></li>
+                  <li><div (click)="toggleShowAll(getPosition.First)">{{"HOMNE.PROJECT.READ_MORE" | translate}}<i class="icon-arrow-right22"></i></div></li>
                 } @else {
-                  <li><div (click)="toggleShowAll('first')">{{"HOMNE.PROJECT.SHOW_LESS" | translate}}<i class="icon-arrow-right22"></i></div></li>
+                  <li><div (click)="toggleShowAll(getPosition.First)">{{"HOMNE.PROJECT.SHOW_LESS" | translate}}<i class="icon-arrow-right22"></i></div></li>
                 }
               </ul>
             </div>
@@ -28,14 +28,14 @@
           <div class="fh5co-blog animate-box">
             <a href="#" class="blog-bg border-panel-info" style="background-image: url(assets/images/htgroup.png);"></a>
             <div class="blog-text">
-              <span class="posted_on">2022</span>
-              <h3><a href="#">HTG</a></h3>
+              <span class="posted_on">{{getYearProject.Htg}}</span>
+              <h3><a href="#">{{getCompany.Htg}}</a></h3>
               <p [ngClass]="{'show-all': showAllSecond() , 'content-text': !showAllSecond() }">{{"HOMNE.PROJECT.HTG_DESCRIPTION" | translate}}</p>
               <ul class="stuff">
                 @if ( !showAllSecond() ) {
-                  <li><div (click)="toggleShowAll('second')">{{"HOMNE.PROJECT.READ_MORE" | translate}}<i class="icon-arrow-right22"></i></div></li>
+                  <li><div (click)="toggleShowAll(getPosition.Second)">{{"HOMNE.PROJECT.READ_MORE" | translate}}<i class="icon-arrow-right22"></i></div></li>
                 } @else {
-                  <li><div (click)="toggleShowAll('second')">{{"HOMNE.PROJECT.SHOW_LESS" | translate}}<i class="icon-arrow-right22"></i></div></li>
+                  <li><div (click)="toggleShowAll(getPosition.Second)">{{"HOMNE.PROJECT.SHOW_LESS" | translate}}<i class="icon-arrow-right22"></i></div></li>
                 }
               </ul>
             </div>
@@ -45,14 +45,14 @@
           <div class="fh5co-blog animate-box">
             <a href="#" class="blog-bg border-panel-info" style="background-image: url(assets/images/portic.jpg);"></a>
             <div class="blog-text">
-              <span class="posted_on">2017</span>
-              <h3><a href="#">Portic</a></h3>
+              <span class="posted_on">{{getYearProject.Portic}}</span>
+              <h3><a href="#">{{getCompany.Portic}}</a></h3>
               <p [ngClass]="{'show-all': showAllThird() , 'content-text': !showAllThird()}">{{"HOMNE.PROJECT.PORTIC_DESCRIPTION" | translate}}</p>
               <ul class="stuff">
                 @if ( !showAllThird() ) {
-                  <li><div (click)="toggleShowAll('third')">{{"HOMNE.PROJECT.READ_MORE" | translate}}<i class="icon-arrow-right22"></i></div></li>
+                  <li><div (click)="toggleShowAll(getPosition.Third)">{{"HOMNE.PROJECT.READ_MORE" | translate}}<i class="icon-arrow-right22"></i></div></li>
                 } @else {
-                  <li><div (click)="toggleShowAll('third')">{{"HOMNE.PROJECT.SHOW_LESS" | translate}}<i class="icon-arrow-right22"></i></div></li>
+                  <li><div (click)="toggleShowAll(getPosition.Third)">{{"HOMNE.PROJECT.SHOW_LESS" | translate}}<i class="icon-arrow-right22"></i></div></li>
                 }
               </ul>
             </div>

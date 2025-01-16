@@ -24,6 +24,7 @@
         "OUTSOURCE": "Desarrollo del Sistema de Gestión de Recursos Humanos, desarrollo del módulo de selección y reclutamiento de personal, automatización de las pruebas de ortografía, color y reven, y desarrollo de los módulos de contrato, vacaciones, aplicación de Prueba de Trabajo, Anticipo de Beneficios, balances de beneficios sociales y evaluación de rendimiento, programado en lenguaje C#, asp.net.",
         "MICORP": "Migración de la base de datos Oracle a Postgres del sistema de marketing de hidrocarburos (SCH). Desarrollo del módulo de ETL y validación de los datos migrados en lenguaje PHP.",
         "COMPUTERINFO": "Ingeniero Informático",
+        "UCAB": "Universidad Católica Andrés Bello",
         "COMPUTERTITULO": "Titulación como Ingeniero Informático",
         "COURSE": "Licencias y certificaciones",
         "QUALIFICATION": "Titulación como bachiller en ciencias",
@@ -45,6 +46,7 @@
         "SKILL": "Habilidades",
         "HIRE_ME": "Contrátame!",
         "CONTACT_US": "Contáctenos",
+        "CURRENT": "Actual",
         "HIRE_ME_INFO": "Con más de 12 años de experiencia en el mundo de la informática, me complace presentarme como un desarrollador Frontend altamente experimentado y apasionado, especializado en las últimas versiones de Angular. A lo largo de mi carrera, he cultivado una sólida reputación por mi compromiso con la excelencia técnica, mi habilidad para adaptarme rápidamente a nuevos desafíos y mi enfoque disciplinado en la entrega de resultados excepcionales. Mi trayectoria incluye la creación de interfaces de usuario innovadoras y funcionales para una amplia gama de aplicaciones web, desde proyectos de escala empresarial hasta aplicaciones móviles. He liderado equipos de desarrollo, aportando no solo mis habilidades técnicas, sino también mi capacidad para inspirar y motivar a mis colegas hacia el éxito conjunto. Me considero un eterno aprendiz y estoy constantemente buscando nuevas oportunidades para expandir mis conocimientos y habilidades. Estoy convencido de que la industria de la tecnología avanza a un ritmo vertiginoso, y estoy comprometido a mantenerme al tanto de las últimas tendencias y prácticas para ofrecer soluciones de vanguardia a nuestros clientes. Mi enfoque en la responsabilidad, la dedicación y la mejora continua me ha permitido sobresalir en entornos exigentes y dinámicos. Estoy ansioso por llevar mi experiencia y pasión por la tecnología a su equipo, contribuyendo al éxito de sus proyectos y al crecimiento de su empresa. Quedo a su disposición para discutir cómo puedo ser un activo valioso para su equipo y para responder cualquier pregunta que pueda tener."
       },
       "SERVICE": {
