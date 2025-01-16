@@ -18,6 +18,7 @@ import { ContactComponent } from './home/contact/contact.component';
 import { WorkComponent } from './home/work/work.component';
 import { ProjectComponent } from './home/project/project.component';
 import { UserService } from '../service/user.service';
+import { VideoExperienceComponent } from './home/video-experience/video-experience.component';
 
 @NgModule({ declarations: [
         HomeComponent,
@@ -27,7 +28,8 @@ import { UserService } from '../service/user.service';
         ProviderComponent,
         ContactComponent,
         WorkComponent,
-        ProjectComponent
+        ProjectComponent,
+        VideoExperienceComponent
     ],
     bootstrap: [HomeComponent], imports: [curriculumRoutingModule,
         CommonModule,

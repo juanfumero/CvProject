@@ -6,6 +6,7 @@ import { UserService } from '../../service/user.service';
 import { UserRespond } from '../../model/user.model';
 import { Company } from '../../shared/enum/company.enum';
 import { YearCompany } from '../../shared/enum/year-company.enum';
+import { VideoKey } from '../../shared/enum/video.enum';
 
 @Component({
   selector: 'app-home',
@@ -205,6 +206,10 @@ export class HomeComponent implements OnInit {
     return YearCompany;
   }
 
+  public get getVideoKey(): typeof VideoKey {
+    return VideoKey;
+  }
+  
   switchLanguage(language: string) {
     this.selectLangue = language;
     this.translate.use(language);        
