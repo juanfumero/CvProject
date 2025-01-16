@@ -21,7 +21,6 @@ body {
 
 #page {
   position: relative;
-  overflow-x: hidden;
   width: 100%;
   height: 100%;
   -webkit-transition: 0.5s;
@@ -29,7 +28,6 @@ body {
   transition: 0.5s;
 }
 .offcanvas #page {
-  overflow: hidden;
   position: absolute;
 }
 .offcanvas #page:after {
@@ -287,7 +285,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-pricing,
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 1em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1039,7 +1037,7 @@ input[type="text"] {
 
 #map {
   width: 100%;
-  height: 500px;
+  height: 150px;
   position: relative;
 }
 @media screen and (max-width: 768px) {
