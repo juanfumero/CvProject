@@ -10,6 +10,7 @@ export enum Company {
     Synergy = 'Synergy-GB',
     Outsource = 'Outsource Software, C.A.',
     ConsultoresMicor = 'Consultores Micorp',
-    Udemy = 'Udemy'
+    Udemy = 'Udemy',
+    Github = 'GitHub'
 }
 
