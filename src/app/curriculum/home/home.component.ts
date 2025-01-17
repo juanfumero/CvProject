@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
       id: "",
       idusername: "",
       username: "Juan Fumero",
-      phone: "(+34) 634xxxxxx",
+      phone: "(+34) ---------",
       email: "prueba@xxxx.com",
       address: "Barcelona"
     }

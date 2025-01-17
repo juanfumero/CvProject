@@ -9,6 +9,7 @@
         "PHONE": "Phone",
         "EMAIL": "Email",
         "ADDRESS": "Address",
+        "REPOSITORY": "Repository",
         "HELLO": "Hello there!",
         "RESUME": "My Resume",
         "WORK": "Work Experience",
